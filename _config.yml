@@ -1,0 +1,77 @@
+url: "https://lawlessgenomics.ch"
+baseurl: ''
+permalink: pretty
+title: 'Lawless Genomics'
+motto: ''
+
+logo:
+  mobile: "images/logo/logo4.2_300.png"
+  mobile_height: "30px"
+  desktop: "images/logo/logo4.2_300.png"
+  desktop_height: "40px"
+  # desktop_width: "120px"
+  # 391 × 341
+
+home: 
+  limit_technologies: 6
+
+collections:
+  technologies:
+    output: true
+  team:
+    output: true
+  blog:
+    output: true
+    permalink: /blog/:name/
+  release:
+    output: true
+    permalink: /release/:name/
+  learn:
+    output: true
+    permalink: /learn/:name/
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "technologies"
+    values:
+      layout: "tech"
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
+  - scope:
+      path: ""
+      type: "releases"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+  - scope:
+      path: "assets/panel_ai"
+    values:
+      sitemap: false
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

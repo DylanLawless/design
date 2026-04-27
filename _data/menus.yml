@@ -1,0 +1,42 @@
+main:
+  - name: "Technologies"
+    url: "/technologies/"
+    weight: 2
+  - name: "Publication"
+    url: "/publications/"
+    weight: 3
+  # - name: "Releases"
+  #   url: "/releases/"
+  #   weight: 4
+  # - name: "Partners"
+  #   url: "/partnerships/"
+  #   weight: 5
+  - name: "About"
+    url: "/about/"
+    weight: 6
+  # - name: "Team"
+  #   url: "/team/"
+  #   weight: 7
+  # - name: "Blog"
+  #   url: "/blog/"
+  #   weight: 7
+  - name: "Contact"
+    url: "/contact/"
+    weight: 8
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2
+  - name: "Legal"
+    url: "/legal/"
+    weight: 3
+  # - name: "Docs"
+  #   url: "https://docs.switzerlandomics.ch"
+  #   weight: 4
+  # - name: "Learn"
+  #   url: "/learn/"
+  #   weight: 5
