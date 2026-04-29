@@ -9,48 +9,33 @@ show_call_box: false
 ---
 
 
-<!-- # Computational biology -->
-<!-- ## Building quantitative infrastructure so biotech companies can produce decision-grade results. -->
+<!-- 
 
 # Dylan Lawless
 
 ## Biomedical evidence, built into working systems.
 
 I develop statistical methods, omic technologies, software, and regulated data infrastructure for research, healthcare, and biotech. My work connects scientific discovery with products, standards, and workflows that can be used beyond the lab.
+ -->
 
-<!-- Vault lock
-<div class="vault-overlay" aria-hidden="true">
-  <div class="vault-panel left"></div>
-  <div class="vault-panel right"></div>
-</div>
-<div class="vault-seam" aria-hidden="true"></div>
--->
+# Dylan Lawless
 
+## Statistical genomics, translational data science, and biomedical software infrastructure.
 
-<!--
-<p class="audience-kicker">For biotech</p>
-<p class="audience-body">
-  Probabilistic systems and evidence frameworks that make genomic interpretation measurable and auditable.
-</p>
--->
+I build statistical methods, omics workflows, and regulated data systems that turn complex biomedical data into reusable evidence.
 
-<!--
-<div class="vault-block">
-  <p class="audience-kicker">For academia</p>
-  <p class="audience-body">
-    Primary research trusted by academic institutions and hospitals.
-  </p>
+My work spans clinical genomics, multi-omics, Bayesian inference, full-stack scientific software, and secure data infrastructure across academic, hospital, and product settings.
 
-  <a href="https://genomicvault.switzerlandomics.ch"
-     class="vault-card vault-link"
-     aria-label="Unlock">
-    <span class="toggle" aria-hidden="true">
-      <span class="slide">
-        <span class="fa fa-circle-o" aria-hidden="true"></span>
-      </span>
-    </span>
-    <span class="label">Unlock</span>
+<div class="newsletter-row">
+  <a href="{{ '/profile' | relative_url }}" class="button-link">
+    {{ include.button_text | default: 'View profile / CV' }}
   </a>
-
 </div>
--->
+
+<div style="height: 1rem;"></div>
+
+<div class="newsletter-row">
+  <a href="{{ '/contact' | relative_url }}" class="button-link secondary">
+    Contact
+  </a>
+</div>

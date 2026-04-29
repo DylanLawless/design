@@ -44,6 +44,9 @@
 <loc>http://localhost:4000/partnerships/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/profile/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/publications/</loc>
 </url>
 <url>
@@ -66,9 +69,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/technologies_gallery/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/why-open/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/assets/pdf/20250918_lawless_quant.pdf</loc>
