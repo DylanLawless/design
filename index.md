@@ -13,19 +13,16 @@ show_call_box: false
   <span class="split-heading-meta">PhD · Zürich</span>
 </h1>
 
-
 ## I turn complex science into evidence people can act on.
 
 Across data, software, translational medicine, and product delivery.
 
 <div>
-  <a href="{{ '/profile' | relative_url }}" class="button-link">
-    {{ include.button_text | default: 'Profile / CV' }}
+  <a href="{{ '/profile/' | relative_url }}" class="button-link">
+    Profile / CV
   </a>
-  <a href="{{ '/contact' | relative_url }}" class="button-link secondary">
+  <a href="{{ '/contact/' | relative_url }}" class="button-link secondary">
     Contact
   </a>
 </div>
 
-
-<!-- {% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="20s" %} -->
