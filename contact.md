@@ -4,11 +4,10 @@ layout: contact
 description: Contact
 ---
 
-I am currently focused on a major project and several publications.
 
-For serious enquiries, contact me at:
+For professional enquiries, recruitment, scientific collaboration, advisory work, please contact me by email.
 
-**dylan at lawless.ch**
+[dylan@lawless.ch](mailto:dylan@lawless.ch){: .button-link }
 
-
-
+**Location**  
+Zürich, Switzerland

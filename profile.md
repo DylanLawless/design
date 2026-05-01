@@ -5,13 +5,13 @@ description: Dylan Lawless profile and CV
 permalink: "/profile/"
 ---
 
-<div class="profile-page">
+<div class="profile-page" markdown="1">
 
 <section class="profile-hero">
 
 <div class="profile-kicker">Dylan Lawless, PhD · Zürich</div>
 
-<h1 class="profile-title">Dylan Lawless</h1>
+<!-- <h1 class="profile-title">Dylan Lawless</h1> -->
 
 <p class="profile-subtitle">
 Senior scientist in statistical genomics and translational data science. I build statistical methods, omics workflows, scientific software, and regulated data infrastructure for biomedical research, healthcare, and biotech.
@@ -23,7 +23,7 @@ My work connects genomics, multi-omics, clinical data, and real-world evidence t
 
 <div class="profile-actions">
   <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link">
-    Download CV as PDF
+    CV PDF
   </a>
 
   <a href="{{ '/contact' | relative_url }}" class="button-link secondary">
@@ -33,7 +33,7 @@ My work connects genomics, multi-omics, clinical data, and real-world evidence t
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
 <h2>Profile</h2>
 
@@ -47,7 +47,7 @@ My focus is evidence that can be defended: reproducible analyses, explicit uncer
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
 <h2>Selected impact</h2>
 
@@ -75,7 +75,7 @@ My focus is evidence that can be defended: reproducible analyses, explicit uncer
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
 <h2>Role fit</h2>
 
@@ -113,7 +113,7 @@ My focus is evidence that can be defended: reproducible analyses, explicit uncer
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
 <h2>Selected experience</h2>
 
@@ -155,78 +155,54 @@ Worked in a regulated bioanalytical laboratory supporting global clinical trial 
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
 <h2>Selected technologies</h2>
 
-<ul class="profile-list">
-  <li>
-    <a href="https://switzerlandomics.ch/technologies/panelAppRexAi/">PanelAppRex AI</a>: harmonised disease-gene panels from structured clinical and genetic queries, preprinted in <a href="https://doi.org/10.1101/2025.03.20.25324319">Quant Group et al. (2025)</a>. <a href="https://github.com/DylanLawless/PanelAppRex"><img src="https://img.shields.io/github/stars/DylanLawless/PanelAppRex?style=social" alt="GitHub stars"></a> <a href="https://doi.org/10.5281/zenodo.15736689"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15736689.svg" alt="Dataset DOI"></a>
-  </li>
 
-  <li>
-    <a href="https://switzerlandomics.ch/technologies/vcfheader/">VCFheader</a>: parsing VCF headers and generating structured standalone HTML reports, described in <a href="https://cran.r-project.org/package=vcfheader">Lawless (2026)</a>. <a href="https://cran.r-project.org/package=vcfheader"><img src="https://www.r-pkg.org/badges/version/vcfheader" alt="CRAN version"></a> <a href="https://cran.r-project.org/package=vcfheader"><img src="https://cranlogs.r-pkg.org/badges/grand-total/vcfheader" alt="CRAN downloads"></a>
-  </li>
-</ul>
+- [PanelAppRex AI](https://switzerlandomics.ch/technologies/panelAppRexAi/): harmonised disease-gene panels from structured clinical and genetic queries, preprinted in [Quant Group et al (2025)](https://doi.org/10.1101/2025.03.20.25324319). [![GitHub stars](https://img.shields.io/github/stars/DylanLawless/PanelAppRex?style=social)](https://github.com/DylanLawless/PanelAppRex) [![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15736689.svg)](https://doi.org/10.5281/zenodo.15736689)
 
-<!--
-<ul class="profile-list">
-  <li>
-    <a href="{{ '/technologies/quantbayes/' | relative_url }}">QuantBayes</a>: standardises how evidence strength is expressed by quantifying genomic variant evidence sufficiency with Bayesian posterior intervals, preprinted in <a href="https://doi.org/10.64898/2025.12.02.25341503">Quant Group et al. (2025)</a>.
-  </li>
+- [VCFheader](https://switzerlandomics.ch/technologies/vcfheader/): parsing VCF headers and generating structured standalone HTML reports, described in [Lawless (2026)](https://cran.r-project.org/package=vcfheader). [![CRAN version](https://www.r-pkg.org/badges/version/vcfheader)](https://cran.r-project.org/package=vcfheader) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/vcfheader)](https://cran.r-project.org/package=vcfheader)
+<!-- [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18889119.svg)](https://doi.org/10.5281/zenodo.18889119) -->
 
-  <li>
-    <a href="https://switzerlandomics.ch/technologies/qv_database/">Qualifying variant database</a>: reusable YAML criteria for reproducible genomic variant interpretation, published in <a href="https://doi.org/10.1093/bioinformatics/btaf676">Lawless et al. (2026)</a>.
-  </li>
+- [QuantBayes](/technologies/quantbayes/): standardises how evidence strength is expressed - quantifying genomic variant evidence sufficiency with Bayesian posterior intervals, preprinted in [Quant Group et al (2025)](https://doi.org/10.64898/2025.12.02.25341503) [![CRAN version](https://www.r-pkg.org/badges/version/quantbayes)](https://cran.r-project.org/package=quantbayes). [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/quantbayes)](https://cran.r-project.org/package=quantbayes) [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17919369.svg)](https://doi.org/10.5281/zenodo.17919369)
 
-  <li>
-    <a href="https://switzerlandomics.ch/technologies/archipelago/">Archipelago</a>: variant set association visualisation for complex genomic studies, published in <a href="https://doi.org/10.1002/gepi.70025">Lawless et al. (2026)</a>.
-  </li>
+- [Archipelago](https://switzerlandomics.ch/technologies/archipelago/): Manhattan plots are for GWAS. Archipelago plots are for complex variant association studies, published in [Lawless et al (2026)](https://doi.org/10.1002/gepi.70025). [![CRAN version](https://www.r-pkg.org/badges/version/archipelago)](https://cran.r-project.org/package=archipelago) [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/archipelago)](https://cran.r-project.org/package=archipelago)
 
-  <li>
-    <a href="https://switzerlandomics.ch/technologies/evidence_ratio/">Evidence ratio</a>: a universal metric for clinical trials and studies by standardising results on a likelihood-based evidence scale.
-  </li>
 
-  <li>
-    <a href="https://switzerlandomics.ch/technologies/iei_genetics/">IEI genetics database</a>: genetic panels and prior probabilities for disease-causing variants in inborn errors of immunity.
-  </li>
-
-  <li>
-    <a href="https://genomicvault.switzerlandomics.ch">Genomic Vault</a>: long-term custody and controlled access for genomics and precision medicine.
-  </li>
-</ul>
--->
 
 <div class="profile-link-row">
-  <a href="{{ '/technologies/' | relative_url }}">View all technologies</a>
+  <a href="{{ '/technologies/' | relative_url }}" class="button-link secondary">
+    View all technologies
+  </a>
 </div>
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
-<h2>Technical range</h2>
+<h2>Technical interests</h2>
 
 <div class="profile-grid">
 
   <div class="profile-card">
     <h3>Statistics and inference</h3>
     <p>
-    Bayesian inference, probabilistic modelling, causal inference, GWAS, rare variant association testing, uncertainty quantification, and multi-omics integration.
+    Bayesian inference, probabilistic modelling, causal inference, DNA, WGS, RNAseq, proteomics, metabolomoics, rare variant association testing, uncertainty quantification, and multi-omics integration.
     </p>
   </div>
 
   <div class="profile-card">
     <h3>Scientific software</h3>
     <p>
-    R, Python, C, Rust, package development, reproducible workflows, machine-readable reporting, Git, and command-line tools.
+    R, Bash, Python, C, Rust, package development, reproducible workflows, machine-readable reporting, Git, Unix, Linux, command-line tools.
     </p>
   </div>
 
   <div class="profile-card">
     <h3>Biomedical platforms</h3>
     <p>
-    Next.js, React, TypeScript, SQL, PostgreSQL, Supabase, Vercel, authenticated systems, controlled file transfer, and reporting workflows.
+     SQL, PostgreSQL, Next.js, React, TypeScript, EHR systems, Supabase, Vercel, authenticated systems, controlled file transfer, and reporting workflows.
     </p>
   </div>
 
@@ -241,7 +217,7 @@ Worked in a regulated bioanalytical laboratory supporting global clinical trial 
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
 <h2>Selected publications</h2>
 
@@ -262,20 +238,21 @@ Worked in a regulated bioanalytical laboratory supporting global clinical trial 
   {% if selected_pub %}
 <p class="publication-line">
   {% if selected_pub.url %}<a href="{{ selected_pub.url }}">{{ selected_pub.title }}</a>{% else %}{{ selected_pub.title }}{% endif %}.
-  {{ selected_pub.authors }}.
-  <strong><em>{{ selected_pub.journal }}</em></strong>,{% if selected_pub.volume %} {{ selected_pub.volume }}{% endif %}{% if selected_pub.number %}({{ selected_pub.number }}){% endif %}{% if selected_pub.pages %}, {{ selected_pub.pages }}{% endif %}, {{ selected_pub.year }}.
-  {% if selected_pub.doi %}DOI: <a href="https://doi.org/{{ selected_pub.doi }}">{{ selected_pub.doi }}</a>{% endif %}
+  <strong><em>{{ selected_pub.journal }}</em></strong>{% if selected_pub.volume %}, {{ selected_pub.volume }}{% endif %}{% if selected_pub.number %}({{ selected_pub.number }}){% endif %}{% if selected_pub.pages %}, {{ selected_pub.pages }}{% endif %}{% if selected_pub.year %}, {{ selected_pub.year }}{% endif %}.
 </p>
   {% endif %}
 {% endfor %}
 
-<div class="profile-link-row">
-  <a href="{{ '/publications/' | relative_url }}">View all publications</a>
+<div class="profile-publications-action">
+  <a href="{{ '/publications/' | relative_url }}" class="button-link secondary">
+    View all publications
+  </a>
 </div>
+
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
 <h2>Education and recognition</h2>
 
@@ -283,28 +260,42 @@ Worked in a regulated bioanalytical laboratory supporting global clinical trial 
 
   <div class="profile-card">
     <h3>Education</h3>
-    <p>
+<ul>
+  <li>
     PhD in Medicine, University of Leeds.<br>
+  </li>
+  <li>
     MSc in Immunology, Trinity College Dublin, first class honours.<br>
+  </li>
+  <li>
     BSc in Microbiology, University College Cork.
-    </p>
+  </li>
+</ul>
   </div>
 
   <div class="profile-card">
     <h3>Selected recognition</h3>
-    <p>
-    FKZ Children’s Research Centre research prize.<br>
-    Microsoft Azure Research Award, Data Science and ML in Predictive Genomics.<br>
-    Wellcome Genome Campus visitor research grant.<br>
+<ul>
+  <li>
+    FKZ Children’s Research Centre research prize.
+  </li>
+  <li>
+    Microsoft Azure Research Award, Data Science and ML in Predictive Genomics.
+  </li>
+  <li>
+    Wellcome Genome Campus visitor research grant.
+  </li>
+  <li>
     University of Leeds 110th Anniversary Postgraduate Research Scholarship.
-    </p>
+  </li>
+</ul>
   </div>
 
 </div>
 
 </section>
 
-<section class="profile-section">
+<section class="profile-section" markdown="1">
 
 <h2>Contact</h2>
 

@@ -1,4 +1,10 @@
 main:
+  - name: "Home"
+    url: "/"
+    weight: 0
+  - name: "Profile"
+    url: "/profile/"
+    weight: 1
   - name: "Technologies"
     url: "/technologies/"
     weight: 2
