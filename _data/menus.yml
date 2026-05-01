@@ -8,7 +8,7 @@ main:
   - name: "Technologies"
     url: "/technologies/"
     weight: 2
-  - name: "Publication"
+  - name: "Publications"
     url: "/publications/"
     weight: 3
   # - name: "Releases"

@@ -8,17 +8,15 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 ---
 
-<h1 class="profile-name-line">
-  Dylan Lawless
-  <span>PhD · Zürich</span>
+<h1 class="split-heading">
+  <span class="split-heading-main">Dylan Lawless</span>
+  <span class="split-heading-meta">PhD · Zürich</span>
 </h1>
 
 
-## Statistical multi-omics, translational data science, and biomedical software infrastructure.
+## I turn complex science into evidence people can act on.
 
-I deliver finished products, relying on statistical methods, omics workflows, and regulated data systems that turn complex biotech data into reusable evidence.
-
-My work spans precision medicine, genomics, multi-omics, Bayesian inference, full-stack scientific software, and secure data infrastructure across academic, hospital, and industry product settings.
+Across data, software, translational medicine, and product delivery.
 
 <div>
   <a href="{{ '/profile' | relative_url }}" class="button-link">
@@ -28,3 +26,6 @@ My work spans precision medicine, genomics, multi-omics, Bayesian inference, ful
     Contact
   </a>
 </div>
+
+
+<!-- {% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="20s" %} -->

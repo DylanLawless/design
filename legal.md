@@ -7,7 +7,7 @@ permalink: "/legal/"
 
 ## Scope
 
-This website is provided by Lawless Genomics for general information. Content may change without notice.
+This website is provided for general information. Content may change without notice.
 
 ## No warranty
 
@@ -15,11 +15,11 @@ We aim to keep information accurate and up to date. We make no representation or
 
 ## Limitation of liability
 
-To the extent permitted by law, Lawless Genomics is not liable for any loss or damage arising from access to, use of, or reliance on this website. This includes direct, indirect, incidental, consequential, or punitive damages.
+To the extent permitted by law, Lawless.ch is not liable for any loss or damage arising from access to, use of, or reliance on this website. This includes direct, indirect, incidental, consequential, or punitive damages.
 
 ## Third party links
 
-Links to third party websites are provided for convenience. Lawless Genomics does not control, endorse, or accept responsibility for third party content, products, services, or privacy practices.
+Links to third party websites are provided for convenience. Lawless.ch does not control, endorse, or accept responsibility for third party content, products, services, or privacy practices.
 
 ## No offer or solicitation
 
@@ -27,7 +27,7 @@ Nothing on this website constitutes an offer, solicitation, or recommendation to
 
 ## Intellectual property
 
-Unless stated otherwise, content on this website is owned by Lawless Genomics or used under licence. You may not reproduce, distribute, modify, or republish content without prior written permission, except where permitted by law.
+Unless stated otherwise, content on this website is owned by Lawless.ch or used under licence. You may not reproduce, distribute, modify, or republish content without prior written permission, except where permitted by law.
 
 
 ## Contact

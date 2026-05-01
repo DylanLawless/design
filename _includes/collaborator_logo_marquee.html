@@ -1,0 +1,57 @@
+{% assign show_colour = include.colour | default: include.color | default: false %}
+{% assign logo_gap = include.gap | default: '3rem' %}
+{% assign logo_slot = include.slot | default: '180px' %}
+{% assign scroll_speed = include.speed | default: '60s' %}
+{% assign logo_count = site.data.collaborator_logos | size %}
+{% assign label = include.label | default: '' %}
+
+<section
+  class="collaborator-strip{% if show_colour == true or show_colour == 'true' %} is-colour{% endif %}"
+  style="
+    --collaborator-logo-gap: {{ logo_gap }};
+    --collaborator-logo-slot-width: {{ logo_slot }};
+    --collaborator-scroll-speed: {{ scroll_speed }};
+    --collaborator-logo-count: {{ logo_count }};
+  "
+>
+  <div class="container">
+    <div class="collaborator-strip-inner">
+      {% if label and label != '' %}
+        <p class="collaborator-strip-label">{{ label }}</p>
+      {% endif %}
+
+      <div class="collaborator-marquee">
+        <div class="collaborator-track">
+
+          {% for repeat in (1..3) %}
+            <div class="collaborator-logo-group"{% if repeat > 1 %} aria-hidden="true"{% endif %}>
+              {% for item in site.data.collaborator_logos %}
+                <div class="collaborator-logo-item">
+                  {% if item.url and item.url != "#" %}
+                    <a
+                      href="{{ item.url }}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      {% if repeat == 1 %}aria-label="{{ item.name }}"{% else %}tabindex="-1"{% endif %}
+                    >
+                      <img
+                        src="{{ '/images/collaborator_logos/' | append: item.file | relative_url }}"
+                        alt="{% if repeat == 1 %}{{ item.name }}{% endif %}">
+                    </a>
+                  {% else %}
+                    <span class="collaborator-logo-static"{% if repeat == 1 %} aria-label="{{ item.name }}"{% endif %}>
+                      <img
+                        src="{{ '/images/collaborator_logos/' | append: item.file | relative_url }}"
+                        alt="{% if repeat == 1 %}{{ item.name }}{% endif %}">
+                    </span>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

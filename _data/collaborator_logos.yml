@@ -1,0 +1,71 @@
+- name: PHRT
+  file: PHRT_Logo_transparent.png
+  url: "#"
+
+- name: SIB
+  file: SIB-Logo-2023.svg
+  url: "#"
+
+- name: SPHN
+  file: SPHN-Logo-SIB.png
+  url: "#"
+
+- name: SwissPedHealth
+  file: SwissPedHealthLogo_trim.png
+  url: "#"
+
+- name: Universität Zürich
+  file: Universität_Zürich_logo.png
+  url: "#"
+
+- name: Kinderspital Zürich
+  file: logo_kinderspital.svg
+  url: "#"
+
+- name: Vanderbilt University
+  file: Vanderbilt-University-Logo.jpg
+  url: "#"
+
+- name: Genomics England
+  file: genomics-england-logo.png
+  url: "#"
+
+- name: Health 2030
+  file: health2030_logo.png
+  url: "#"
+
+- name: EPFL
+  file: logo-epfl.png
+  url: "#"
+
+- name: University of Leeds
+  file: university-of-leeds-logo.png
+  url: "#"
+
+- name: Swiss Genomics Association
+  file: swissgenomicsassociation_logo.png
+  url: "#"
+
+- name: Switzerland Omics
+  file: switzerlandomics_logo_screenshot.png
+  url: "#"
+
+- name: University of South Florida
+  file: uof_logo.jpg
+  url: "#"
+
+- name: Roche
+  file: roche_logo.png
+  url: "#"
+
+- name: UCD
+  file: ucd_logo.jpg
+  url: "#"
+
+- name: TCD
+  file: tcd_logo.jpg
+  url: "#"
+
+- name: VentureLab
+  file: venturelab_logo.jpg
+  url: "#"
