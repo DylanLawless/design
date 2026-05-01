@@ -20,9 +20,9 @@ Statistical genomics depends on the chain between study design, cohort structure
     Contact
   </a>
 
-  <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link secondary">
-    CV PDF
-  </a>
+  <!-- <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link secondary"> -->
+  <!--   CV PDF -->
+  <!-- </a> -->
 
   <a href="{{ '/profile/' | relative_url }}" class="button-link secondary">
     Back to profiles
@@ -251,16 +251,6 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
 ## Working fit
 
 Statistical genomics teams need analyses that survive replication, review, and reuse. The useful output is not only a significant result. It is a defensible chain from cohort definition to interpretable evidence. If you want to solve this problem, get in touch.
-
-<div class="profile-actions">
-  <a href="{{ '/contact' | relative_url }}" class="button-link">
-    Contact
-  </a>
-
-  <a href="{{ '/profile/' | relative_url }}" class="button-link secondary">
-    Back to profiles
-  </a>
-</div>
 
 </section>
 

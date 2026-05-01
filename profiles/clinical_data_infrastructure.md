@@ -20,9 +20,9 @@ Regulated biomedical work depends on secure data flow, reproducible analysis, tr
     Contact
   </a>
 
-  <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link secondary">
-    CV PDF
-  </a>
+  <!-- <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link secondary"> -->
+  <!--   CV PDF -->
+  <!-- </a> -->
 
   <a href="{{ '/profile/' | relative_url }}" class="button-link secondary">
     Back to profiles
@@ -252,16 +252,6 @@ reusable YAML criteria for reproducible genomic variant interpretation, publishe
 ## Working fit
 
 Clinical and regulated data teams need evidence systems that can be inspected, reused, and defended. The useful output is not only analysis. It is a reliable chain from source data to structured decision support. If you want to solve this problem, get in touch.
-
-<div class="profile-actions">
-  <a href="{{ '/contact' | relative_url }}" class="button-link">
-    Contact
-  </a>
-
-  <a href="{{ '/profile/' | relative_url }}" class="button-link secondary">
-    Back to profiles
-  </a>
-</div>
 
 </section>
 

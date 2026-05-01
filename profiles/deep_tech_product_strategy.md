@@ -20,9 +20,9 @@ In serious life-science products, taste is a technical discipline. It shows up i
     Contact
   </a>
 
-  <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link secondary">
-    CV PDF
-  </a>
+  <!-- <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link secondary"> -->
+  <!--   CV PDF -->
+  <!-- </a> -->
 
   <a href="{{ '/profile/' | relative_url }}" class="button-link secondary">
     Back to profiles
@@ -270,16 +270,6 @@ In serious life-science products, taste is a technical discipline. It shows up i
 ## Working fit
 
 Deep-tech teams need taste as much as technical depth. The useful output is a product where the science, data model, interface, documentation, claims, regulation, and commercial path all feel like one coherent system. If you want to build that kind of product, get in touch.
-
-<div class="profile-actions">
-  <a href="{{ '/contact' | relative_url }}" class="button-link">
-    Contact
-  </a>
-
-  <a href="{{ '/profile/' | relative_url }}" class="button-link secondary">
-    Back to profiles
-  </a>
-</div>
 
 </section>
 

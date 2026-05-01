@@ -20,9 +20,9 @@ Scientific software needs to preserve the evidence while making the work operati
     Contact
   </a>
 
-  <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link secondary">
-    CV PDF
-  </a>
+  <!-- <a href="{{ '/assets/Dylan_Lawless_CV.pdf' | relative_url }}" class="button-link secondary"> -->
+  <!--   CV PDF -->
+  <!-- </a> -->
 
   <a href="{{ '/profile/' | relative_url }}" class="button-link secondary">
     Back to profiles
@@ -42,7 +42,7 @@ Scientific software needs to preserve the evidence while making the work operati
   </div>
 
   <div class="profile-metric">
-    <strong>National scal data</strong>
+    <strong>National scale</strong>
     <span>biomedical data supported through reproducible and secure analytical workflows</span>
   </div>
 
@@ -252,16 +252,4 @@ Scientific software needs to preserve the evidence while making the work operati
 
 Biomedical software teams need systems that keep the science intact. The useful output is not only an interface or a script. It is a maintained workflow where data, method, report, and user action stay connected. If you want to solve this problem, get in touch.
 
-<div class="profile-actions">
-  <a href="{{ '/contact' | relative_url }}" class="button-link">
-    Contact
-  </a>
-
-  <a href="{{ '/profile/' | relative_url }}" class="button-link secondary">
-    Back to profiles
-  </a>
-</div>
-
 </section>
-
-</div>
