@@ -55,11 +55,39 @@ Statistical genomics depends on the chain between study design, cohort structure
     <strong>>100 TB</strong>
     <span>biomedical data handled through secure, reproducible analytical infrastructure</span>
   </div>
+
 </div>
 
 </section>
 
 <section class="profile-section" markdown="1">
+
+## Portfolio samples
+
+<div class="video-demo-grid" style="--video-demo-columns: 2; --video-demo-gap: 1.25rem;">
+  {% include lazy_video.html
+    src="/videos/20260207_Archipelago_promo.mp4"
+    poster="/videos/Archipelago_thumbnail.png"
+    alt="Archipelago video preview"
+    badge="Video demo"
+    duration="0:22"
+    caption="Archipelago, variant set association visualisation for complex genomic studies."
+  %}
+
+  {% include lazy_video.html
+    src="/videos/20250627_quant_scan_v1.MOV"
+    poster="/videos/quant_icons_thumbnail.jpg"
+    alt="Second demo video preview"
+    badge="Video demo"
+    duration="1:23"
+    caption="Quant, The missing element in genomic interpretation. Database, scan, and state-of-the-art algorithm.."
+  %}
+</div>
+
+</section>
+
+<section class="profile-section" markdown="1">
+
 
 ## What this work resolves
 

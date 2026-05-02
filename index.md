@@ -13,7 +13,8 @@ show_call_box: false
   <span class="split-heading-meta">PhD · Zürich</span>
 </h1>
 
-## I turn complex science into evidence people can act on.
+
+## From first principles to polished scientific products.
 
 Across data, software, translational medicine, and product delivery.
 
@@ -25,4 +26,8 @@ Across data, software, translational medicine, and product delivery.
     Contact
   </a>
 </div>
+
+
+
+
 

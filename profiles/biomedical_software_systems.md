@@ -61,6 +61,33 @@ Scientific software needs to preserve the evidence while making the work operati
 
 <section class="profile-section" markdown="1">
 
+## Portfolio samples
+
+<div class="video-demo-grid" style="--video-demo-columns: 2; --video-demo-gap: 1.25rem;">
+  {% include lazy_video.html
+    src="/videos/20250512_qualifying_variants_v1.MP4"
+    poster="/videos/qv_thumbnail.jpg"
+    alt="Archipelago video preview"
+    badge="Video demo"
+    duration="0:44"
+    caption="Qualifying variant database. The open standard for variant interpretation, with trusted QV sets to enhance clarity and reproducibility in genetics."
+  %}
+
+  {% include lazy_video.html
+    src="/videos/20250627_quant_scan_v1.MOV"
+    poster="/videos/quant_icons_thumbnail.jpg"
+    alt="Second demo video preview"
+    badge="Video demo"
+    duration="1:23"
+    caption="Quant, The missing element in genomic interpretation. Database, scan, and state-of-the-art algorithm.."
+  %}
+</div>
+
+</section>
+
+
+<section class="profile-section" markdown="1">
+
 ## What this work resolves
 
 <div class="profile-grid">

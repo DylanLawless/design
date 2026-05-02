@@ -1,0 +1,42 @@
+<div
+  class="media-demo"
+  style="{% if include.width %}--media-demo-width: {{ include.width }};{% endif %}"
+>
+  <div
+    class="lazy-video"
+    data-video-src="{{ include.src | relative_url }}"
+  >
+    <button class="lazy-video-button" type="button" aria-label="{{ include.aria_label | default: 'Play video' }}">
+      <img
+        src="{{ include.poster | relative_url }}"
+        alt="{{ include.alt | default: 'Video preview' }}"
+        loading="lazy"
+        class="lazy-video-poster"
+      >
+
+      <span class="lazy-video-overlay" aria-hidden="true"></span>
+
+      {% if include.badge %}
+      <span class="lazy-video-badge">{{ include.badge }}</span>
+      {% else %}
+      <span class="lazy-video-badge">Video demo</span>
+      {% endif %}
+
+      {% if include.duration %}
+      <span class="lazy-video-duration">{{ include.duration }}</span>
+      {% endif %}
+
+      <span class="lazy-video-control" aria-hidden="true">
+        <span class="lazy-video-icon"></span>
+        <span class="lazy-video-label">{{ include.label | default: 'Play video' }}</span>
+      </span>
+    </button>
+  </div>
+
+  {% if include.caption %}
+  <p class="media-demo-caption">{{ include.caption }}</p>
+  {% endif %}
+</div>
+
+
+
