@@ -1,26 +1,26 @@
 ---
-title: Switzerland Omics
+title: Lawless design
 layout: home
-description: Auditable genomic infrastructure for precision medicine, statistical genomics, epidemiology, and bioinformatic interpretation across clinical, research, and industrial settings.
-intro_image: "images/profile/dylan_small.jpg"
+description: Design house with heritage in marketing and brand identity.
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: false
 ---
+<!-- intro_image: "images/profile/dylan_small.jpg" -->
 
 <h1 class="split-heading">
-  <span class="split-heading-main">Dylan Lawless</span>
-  <span class="split-heading-meta">PhD · Zürich</span>
+  <span class="split-heading-main">Lawless design</span>
+  <span class="split-heading-meta">Zürich</span>
 </h1>
 
 
-## From first principles to polished scientific products.
+## From first principles with taste
 
-Across data, software, translational medicine, and product delivery.
+Deep tech delivery for polished scientific products.
 
 <div>
   <a href="{{ '/profile/' | relative_url }}" class="button-link">
-    Profile / CV
+    Profile 
   </a>
   <a href="{{ '/contact/' | relative_url }}" class="button-link secondary">
     Contact
