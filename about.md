@@ -1,54 +1,166 @@
 ---
 title: About
-layout: page
-description: About this website and professional profile
+layout: page_editorial
+description: Lawless design is a Zürich-based studio for high-value brands, deep technology companies, and organisations that need a clear identity.
 permalink: "/about/"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-This website is my online profile, CV, and public record of work.
+<div class="editorial-section" markdown="1">
+<div class="container">
+<div class="row justify-content-start">
+<div class="col-12 col-md-8" markdown="1">
 
-It exists because my work rarely fits cleanly under one job title. I began in molecular biology, pathogen infection, immunology, genomics, and computational analysis. Over time, the work moved further along the chain from basic science to real-world use.
+We shape digital brands for organisations where trust matters.
 
-The focus became less about producing a result once, and more about making that result reliable, documented, reusable, and clear enough for other teams to build on.
+Lawless design is a Zürich-based market studio working across identity, UX, websites, and product communication. We work best with founders, technical teams, and high-value service businesses that need complex work to feel clear, credible, and considered.
 
-That is why the site is organised through professional profiles. The same experience can be relevant from the clinic, the lab, the data team, the software team, the product room, or the regulated setting. Each profile gathers the relevant parts around a different problem.
+Our role is to reduce noise. We turn technical depth, commercial ambition, and institutional trust into systems people can understand.
 
-The common thread is simple: I work on how serious scientific work becomes usable. A method, a workflow, a platform, a standard, a report, a product, or a decision system.
+## What we do
 
-<div class="profile-actions">
-  <!-- <a href="{{ '/profile/' | relative_url }}" class="button-link"> -->
-  <!--   Profile / CV -->
-  <!-- </a> -->
-  <!---->
-  <!-- <a href="{{ '/technologies/' | relative_url }}" class="button-link secondary"> -->
-  <!--   Technologies -->
-  <!-- </a> -->
-  <!---->
-  <!-- <a href="{{ '/publications/' | relative_url }}" class="button-link secondary"> -->
-  <!--   Publications -->
-  <!-- </a> -->
+We create calm, high-quality digital experiences for brands that cannot rely on decoration.
 
-  <a href="{{ '/contact/' | relative_url }}" class="button-link secondary">
-    Contact
-  </a>
+Some clients need a sharper market position. Some need a website that explains a serious product without flattening it. Some need a complete visual and verbal system that can scale across investors, customers, partners, and internal teams.
+
+The work changes by project. The standard does not.
+
+</div>
+</div>
+</div>
 </div>
 
-## Major employment and public output
+<div class="editorial-section section-dark" markdown="1">
+<div class="container">
+<div class="row justify-content-start">
+<div class="col-12 col-md-8" markdown="1">
 
-[EPFL](https://www.epfl.ch/en/) ·
-[University of Zürich](https://www.uzh.ch/de.html) ·
-[University Children’s Hospital Zürich](https://www.kispi.uzh.ch/) ·
-[University of Leeds](https://www.leeds.ac.uk/) ·
-[Trinity College Dublin](https://www.tcd.ie/) ·
-[University College Cork](https://www.ucc.ie/)
+## Why Lawless design
 
-[Switzerland Omics](http://switzerlandomics.ch/) ·
-[Genomic Vault](https://genomicvault.switzerlandomics.ch) ·
-[Swiss Genomics Association](https://www.swissgenomicsassociation.ch) ·
-[SwissPedHealth](https://swisspedhealth.com/) ·
-[Variant Impact](https://variantimpact.vercel.app) ·
-[YouTube](https://www.youtube.com/@SwitzerlandOmics)
+### 01  
+### Senior attention from the start
+
+High-value work cannot be passed through layers of interpretation.
+
+We work close to the source of the business. That means understanding the product, the buyer, the founder’s judgement, and the market context before shaping the experience. The result is work that feels specific, not assembled.
+
+### 02  
+### Strategy before surface
+
+Good execution begins with judgement.
+
+We clarify what the brand must signal, who it must reassure, and what the user needs to understand first. Identity, writing, motion, and interface choices then serve that structure.
+
+### 03  
+### Built for trust
+
+Deep technology and premium service brands share one requirement: the experience must feel reliable before anything is explained.
+
+A site should carry authority through spacing, typography, restraint, and sequence. It should make the company easier to understand without making it smaller.
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="editorial-section" markdown="1">
+<div class="container">
+<div class="row justify-content-start">
+<div class="col-12 col-md-8" markdown="1">
+
+## Capabilities
+
+<div class="profile-grid">
+
+  <div class="profile-card">
+    <h3>Brand</h3>
+    <p>
+    Brand strategy, positioning, verbal identity, visual identity, brand systems, founder and company narrative, presentation direction, and launch messaging.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Digital experience</h3>
+    <p>
+    Website direction, UX structure, information architecture, interaction systems, interface language, motion direction, conversion flow structure, and content hierarchy.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Deep technology communication</h3>
+    <p>
+    Technical product messaging, scientific and infrastructure storytelling, investor-facing narrative, product architecture explanation, regulated communication, and complex workflow simplification.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Content</h3>
+    <p>
+    Website copy, product copy, executive writing, case study structure, art direction, diagram and figure direction, and campaign concepts.
+    </p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Development support</h3>
+    <p>
+    Frontend-ready systems, component structure, static site direction, CMS-ready content structure, performance-aware layouts, and developer handoff.
+    </p>
+  </div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="editorial-section section-black" markdown="1">
+<div class="container">
+<div class="row justify-content-start">
+<div class="col-12 col-md-8" markdown="1">
+
+## How we think
+
+Clarity is not a softer version of technical depth. It is the visible proof of it.
+
+The strongest brands do not explain everything at once. They give the reader enough structure to trust what comes next. They know what to leave out, what to emphasise, and when silence carries more authority than another claim.
+
+We work for that moment.
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="editorial-section" markdown="1">
+<div class="container">
+<div class="row justify-content-start">
+<div class="col-12 col-md-8" markdown="1">
+
+## For whom
+
+We work with organisations that value precision, restraint, and long-term brand quality.
+
+That includes deep technology companies, genomics and health technology teams, premium service businesses, investment-backed founders, and institutions that need to communicate complex value with confidence.
+
+## Working style
+
+We keep the process direct.
+
+First, we understand the business and the audience. Then we define the structure: what the page, product, or brand must make clear. From there, we shape the experience, write the language, and refine until the work feels inevitable.
+
+No theatre. No filler. Just the clearest version of the company.
+
+## Let’s talk
+
+For new projects, collaborations, and selected advisory work:
+
+[dylan@lawless.ch](mailto:dylan@lawless.ch){: .button-link }
 
 {% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="45s" %}
+
+</div>
+</div>
+</div>
+</div>

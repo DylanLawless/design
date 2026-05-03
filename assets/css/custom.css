@@ -843,3 +843,234 @@
     font-size: 0.92rem;
   }
 }
+
+
+/* Editorial page sections */
+/* Editorial pages with full width colour sections */
+
+.page-editorial .editorial-section {
+  width: 100%;
+}
+
+.page-editorial .section-dark,
+.page-editorial .section-black {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.page-editorial .section-dark {
+  background: #171720;
+  color: #ffffff;
+}
+
+.page-editorial .section-black {
+  background: #0f0f14;
+  color: #ffffff;
+}
+
+
+/* Editorial page section rhythm */
+
+.page-editorial .editorial-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.page-editorial .editorial-section:first-child {
+  padding-top: 0;
+}
+
+.page-editorial .editorial-section > .container > .row > [class*="col-"] > *:first-child {
+  margin-top: 0;
+}
+
+.page-editorial .editorial-section > .container > .row > [class*="col-"] > *:last-child {
+  margin-bottom: 0;
+}
+
+.page-editorial .section-dark,
+.page-editorial .section-black {
+  width: 100%;
+}
+
+.page-editorial .section-dark {
+  background: #171720;
+  color: #ffffff;
+}
+
+.page-editorial .section-black {
+  background: #0f0f14;
+  color: #ffffff;
+}
+
+.page-editorial .section-dark h1,
+.page-editorial .section-dark h2,
+.page-editorial .section-dark h3,
+.page-editorial .section-dark h4,
+.page-editorial .section-dark h5,
+.page-editorial .section-dark h6,
+.page-editorial .section-black h1,
+.page-editorial .section-black h2,
+.page-editorial .section-black h3,
+.page-editorial .section-black h4,
+.page-editorial .section-black h5,
+.page-editorial .section-black h6 {
+  color: #ffffff;
+}
+
+.page-editorial .section-dark p,
+.page-editorial .section-dark li,
+.page-editorial .section-black p,
+.page-editorial .section-black li {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.page-editorial .section-dark a,
+.page-editorial .section-black a {
+  color: #ffffff;
+  text-decoration-color: rgba(255, 255, 255, 0.45);
+}
+
+.page-editorial .section-dark a:hover,
+.page-editorial .section-black a:hover {
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .page-editorial .editorial-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .page-editorial .editorial-section:first-child {
+    padding-top: 0;
+  }
+}
+
+.page-editorial .section-dark h1,
+.page-editorial .section-dark h2,
+.page-editorial .section-dark h3,
+.page-editorial .section-dark h4,
+.page-editorial .section-dark h5,
+.page-editorial .section-dark h6,
+.page-editorial .section-black h1,
+.page-editorial .section-black h2,
+.page-editorial .section-black h3,
+.page-editorial .section-black h4,
+.page-editorial .section-black h5,
+.page-editorial .section-black h6 {
+  color: #ffffff;
+}
+
+.page-editorial .section-dark p,
+.page-editorial .section-dark li,
+.page-editorial .section-black p,
+.page-editorial .section-black li {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.page-editorial .section-dark a,
+.page-editorial .section-black a {
+  color: #ffffff;
+  text-decoration-color: rgba(255, 255, 255, 0.45);
+}
+
+.page-editorial .section-dark a:hover,
+.page-editorial .section-black a:hover {
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+}
+
+/* Portfolio page */
+
+.portfolio-page .profile-hero {
+  max-width: 760px;
+}
+
+.portfolio-work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.6rem, 3vw, 2.4rem);
+  align-items: start;
+}
+
+.portfolio-work-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.portfolio-shot {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.portfolio-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.portfolio-shot:hover img,
+.portfolio-shot:focus-visible img {
+  filter: saturate(1.02) contrast(1.01);
+}
+
+.portfolio-shot:focus-visible {
+  outline: 3px solid rgba(229, 38, 31, 0.28);
+  outline-offset: 4px;
+}
+
+.portfolio-card-body {
+  padding-top: 1rem;
+}
+
+.portfolio-meta {
+  margin: 0 0 0.45rem;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  color: #5c5a5a;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-card-body h3 {
+  margin: 0 0 0.55rem;
+  font-size: 1.18rem;
+  line-height: 1.22;
+  color: #2f2f41;
+}
+
+.portfolio-card-body p {
+  margin: 0;
+  max-width: 760px;
+  color: #5c5a5a;
+  line-height: 1.5;
+}
+
+.portfolio-card-body .portfolio-proof {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: #5c5a5a;
+}
+
+.portfolio-card-body .route-card-link {
+  margin-top: 1rem;
+}
+
+@media (max-width: 767.98px) {
+  .portfolio-work-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .portfolio-card-body {
+    padding-top: 0.85rem;
+  }
+}
+
+

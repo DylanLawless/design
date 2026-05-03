@@ -1,4 +1,46 @@
 .page-home {
+  /*
+    Home contact orb animation controls
+
+    Tune only these first:
+
+    --home-cta-start-delay
+      Wait before the contact orb starts moving.
+      Try 900ms to 1400ms.
+
+    --home-cta-travel-time
+      Time for the orb to travel from the mother orb to the button position.
+      Try 1900ms to 2800ms.
+
+    --home-cta-expand-time
+      Time for the orb to expand into the button after it lands.
+      Try 560ms to 950ms.
+
+    --home-cta-label-delay-extra
+      Small extra pause before the word appears after expansion begins.
+      Try 120ms to 260ms.
+  */
+  --home-cta-start-delay: 400ms;
+  --home-cta-travel-time: 2300ms;
+  --home-cta-expand-time: 200ms;
+  --home-cta-label-delay-extra: 100ms;
+
+  /*
+    Derived timings
+
+    These keep the sequence accurate:
+    start delay
+    then travel
+    then expand
+    then label reveal
+  */
+  --home-cta-expand-delay: calc(var(--home-cta-start-delay) + var(--home-cta-travel-time));
+  --home-cta-label-delay: calc(var(--home-cta-expand-delay) + var(--home-cta-label-delay-extra));
+
+  --home-cta-travel-ease: cubic-bezier(0.18, 0.82, 0.20, 1);
+  --home-cta-expand-ease: cubic-bezier(0.18, 0.86, 0.22, 1);
+  --home-cta-label-ease: cubic-bezier(0.20, 0.80, 0.20, 1);
+
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -15,6 +57,10 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
+  }
+
+  .home-hero-slot--animation {
+    justify-content: center;
   }
 
   .home-hero-image {
@@ -35,6 +81,130 @@
     max-width: 620px;
   }
 
+  .home-cta-row {
+    margin-top: clamp(1.5rem, 4vh, 2.5rem);
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .home-cta-button {
+    --home-cta-origin-x: 0px;
+    --home-cta-origin-y: 0px;
+    --home-cta-orb-size: 48px;
+    --home-cta-final-width: 118px;
+
+    position: relative;
+    box-sizing: border-box;
+    width: var(--home-cta-final-width);
+    height: var(--home-cta-orb-size);
+    min-height: var(--home-cta-orb-size);
+    padding: 0 1.35rem;
+    overflow: hidden;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 999px;
+    border: 1px solid rgba(23, 23, 32, 0.16);
+    background:
+      radial-gradient(circle at 34% 24%, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 30%),
+      radial-gradient(circle at 62% 76%, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0) 32%),
+      linear-gradient(155deg, #212129 0%, #0f1016 54%, #050507 100%);
+
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 520;
+    letter-spacing: 0.01em;
+
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.12),
+      inset 0 -10px 22px rgba(0, 0, 0, 0.24),
+      0 10px 24px rgba(18, 18, 24, 0.12),
+      0 22px 44px rgba(18, 18, 24, 0.08);
+
+    opacity: 0;
+    transform-origin: 50% 50%;
+    will-change: transform, width, opacity, filter;
+  }
+
+  .home-cta-button--ready {
+    width: var(--home-cta-orb-size);
+    min-width: var(--home-cta-orb-size);
+    padding-left: 0;
+    padding-right: 0;
+    opacity: 1;
+    transform: translate3d(var(--home-cta-origin-x), var(--home-cta-origin-y), 0);
+  }
+
+  .home-cta-button--materialise {
+    animation:
+      home-cta-travel var(--home-cta-travel-time) var(--home-cta-travel-ease) var(--home-cta-start-delay) both,
+      home-cta-expand var(--home-cta-expand-time) var(--home-cta-expand-ease) var(--home-cta-expand-delay) forwards;
+  }
+
+  .home-cta-button--complete {
+    width: var(--home-cta-final-width);
+    min-width: var(--home-cta-final-width);
+    padding-left: 1.35rem;
+    padding-right: 1.35rem;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition:
+      transform 0.18s ease,
+      box-shadow 0.18s ease,
+      background 0.18s ease;
+  }
+
+  .home-cta-button::before {
+    content: "";
+    position: absolute;
+    inset: -30%;
+    border-radius: inherit;
+    background:
+      radial-gradient(circle at 36% 26%, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 34%),
+      radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0) 64%);
+    opacity: 0.08;
+    pointer-events: none;
+  }
+
+  .home-cta-label {
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transform: translateY(2px);
+  }
+
+  .home-cta-button--materialise .home-cta-label {
+    animation: home-cta-label 520ms var(--home-cta-label-ease) var(--home-cta-label-delay) forwards;
+  }
+
+  .home-cta-button--complete:hover {
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-1px);
+    background:
+      radial-gradient(circle at 34% 24%, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 30%),
+      radial-gradient(circle at 62% 76%, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0) 32%),
+      linear-gradient(155deg, #292932 0%, #111219 54%, #060608 100%);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.14),
+      inset 0 -10px 22px rgba(0, 0, 0, 0.24),
+      0 12px 28px rgba(18, 18, 24, 0.14),
+      0 26px 52px rgba(18, 18, 24, 0.10);
+  }
+
+  .home-cta-button:focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 4px rgba(23, 23, 32, 0.10),
+      inset 0 1px 1px rgba(255, 255, 255, 0.14),
+      inset 0 -10px 22px rgba(0, 0, 0, 0.24),
+      0 12px 28px rgba(18, 18, 24, 0.14);
+  }
+
   .home-sentinel {
     margin-top: auto;
     padding-top: clamp(1.5rem, 5vh, 4rem);
@@ -45,6 +215,50 @@
     display: block;
     width: clamp(112px, 13vw, 190px);
     height: auto;
+  }
+
+  @keyframes home-cta-travel {
+    0% {
+      opacity: 1;
+      transform: translate3d(var(--home-cta-origin-x), var(--home-cta-origin-y), 0);
+      filter: saturate(1) brightness(1);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      filter: saturate(0.98) brightness(1.03);
+    }
+  }
+
+  @keyframes home-cta-expand {
+    0% {
+      width: var(--home-cta-orb-size);
+      min-width: var(--home-cta-orb-size);
+      padding-left: 0;
+      padding-right: 0;
+      filter: saturate(0.98) brightness(1.03);
+    }
+
+    100% {
+      width: var(--home-cta-final-width);
+      min-width: var(--home-cta-final-width);
+      padding-left: 1.35rem;
+      padding-right: 1.35rem;
+      filter: saturate(1) brightness(1);
+    }
+  }
+
+  @keyframes home-cta-label {
+    0% {
+      opacity: 0;
+      transform: translateY(2px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   @media (min-width: 768px) {
@@ -64,11 +278,49 @@
 
     .home-hero-slot {
       max-width: 520px;
-      margin: 0 auto 1.25rem;
+      margin: clamp(1.75rem, 8vh, 3rem) auto 0;
     }
 
     .home-hero-slot--hide-mobile {
       display: none;
+    }
+
+    .home-hero-slot--animation {
+      display: flex;
+    }
+
+    .home-cta-row {
+      margin-top: 1.5rem;
+    }
+
+    .home-cta-button {
+      --home-cta-orb-size: 46px;
+      --home-cta-final-width: 112px;
+      height: var(--home-cta-orb-size);
+      min-height: var(--home-cta-orb-size);
+    }
+
+    .home-cta-button--complete {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+    }
+
+    @keyframes home-cta-expand {
+      0% {
+        width: var(--home-cta-orb-size);
+        min-width: var(--home-cta-orb-size);
+        padding-left: 0;
+        padding-right: 0;
+        filter: saturate(0.98) brightness(1.03);
+      }
+
+      100% {
+        width: var(--home-cta-final-width);
+        min-width: var(--home-cta-final-width);
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        filter: saturate(1) brightness(1);
+      }
     }
 
     .home-sentinel {
@@ -79,6 +331,31 @@
 
     .home-sentinel__image {
       width: clamp(96px, 32vw, 145px);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .home-cta-button,
+    .home-cta-label {
+      animation: none !important;
+    }
+
+    .home-cta-button,
+    .home-cta-button--ready,
+    .home-cta-button--materialise,
+    .home-cta-button--complete {
+      width: var(--home-cta-final-width);
+      min-width: var(--home-cta-final-width);
+      padding-left: 1.35rem;
+      padding-right: 1.35rem;
+      opacity: 1;
+      transform: none;
+      filter: none;
+    }
+
+    .home-cta-label {
+      opacity: 1;
+      transform: none;
     }
   }
 }

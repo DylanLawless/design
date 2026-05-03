@@ -8,7 +8,7 @@ bodyClass: "page-home"
 <div class="intro home-intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12 col-md-7 col-lg-6 order-1 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
@@ -18,8 +18,8 @@ bodyClass: "page-home"
       {% assign hero_media = page.hero_media | default: 'orb_spawn' %}
 
       {% if hero_media == 'orb_spawn' or hero_media == 'animation' %}
-        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2">
-          <div class="home-hero-slot{% if page.intro_image_hide_on_mobile %} home-hero-slot--hide-mobile{% endif %}">
+        <div class="col-12 col-md-5 col-lg-6 order-2 order-md-2">
+          <div class="home-hero-slot home-hero-slot--animation">
             {% include orb_spawn_animation.html label=page.hero_animation_label %}
           </div>
         </div>
@@ -53,3 +53,66 @@ bodyClass: "page-home"
     </div>
   </div>
 {% endif %}
+
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    const button = document.querySelector('.home-cta-button--from-orb');
+    const motherOrb = document.querySelector('.home-hero-slot--animation .orb-spawn__orb-main');
+
+    if (!button || !motherOrb) {
+      return;
+    }
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (reduceMotion) {
+      button.classList.add('home-cta-button--ready');
+      button.classList.add('home-cta-button--complete');
+      return;
+    }
+
+    function setLaunchVector() {
+      const buttonRect = button.getBoundingClientRect();
+      const orbRect = motherOrb.getBoundingClientRect();
+
+      const buttonCenterX = buttonRect.left + buttonRect.width / 2;
+      const buttonCenterY = buttonRect.top + buttonRect.height / 2;
+
+      const orbCenterX = orbRect.left + orbRect.width / 2;
+      const orbCenterY = orbRect.top + orbRect.height / 2;
+
+      button.style.setProperty('--home-cta-origin-x', `${orbCenterX - buttonCenterX}px`);
+      button.style.setProperty('--home-cta-origin-y', `${orbCenterY - buttonCenterY}px`);
+    }
+
+    function prepareButton() {
+      setLaunchVector();
+
+      window.requestAnimationFrame(function () {
+        button.classList.add('home-cta-button--ready');
+
+        window.setTimeout(function () {
+          button.classList.add('home-cta-button--materialise');
+        }, 720);
+      });
+    }
+
+    button.addEventListener('animationend', function (event) {
+      if (event.animationName === 'home-cta-expand') {
+        button.classList.add('home-cta-button--complete');
+      }
+    });
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () {
+        window.requestAnimationFrame(function () {
+          window.requestAnimationFrame(prepareButton);
+        });
+      });
+    } else {
+      window.requestAnimationFrame(function () {
+        window.requestAnimationFrame(prepareButton);
+      });
+    }
+  });
+</script>
