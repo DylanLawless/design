@@ -1,0 +1,18 @@
+<div
+  class="orb-spawn{% if include.class %} {{ include.class }}{% endif %}"
+  role="img"
+  aria-label="{{ include.label | default: 'Abstract animated hero graphic showing a central black orb with smaller orbiting forms' }}"
+>
+  <div class="orb-spawn__surface">
+    <div class="orb-spawn__field" aria-hidden="true">
+      <span class="orb-spawn__halo orb-spawn__halo-one"></span>
+      <span class="orb-spawn__halo orb-spawn__halo-two"></span>
+
+      <span class="orb-spawn__orb orb-spawn__orb-main"></span>
+
+      <span class="orb-spawn__orb orb-spawn__orb-child orb-spawn__orb-child-one"></span>
+      <span class="orb-spawn__orb orb-spawn__orb-child orb-spawn__orb-child-two"></span>
+      <span class="orb-spawn__orb orb-spawn__orb-child orb-spawn__orb-child-three"></span>
+    </div>
+  </div>
+</div>

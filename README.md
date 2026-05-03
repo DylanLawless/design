@@ -1,4 +1,3 @@
-# Lawless.ch Website
+# Lawless design Website
 
-Homepage for Lawless.ch
 

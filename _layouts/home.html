@@ -4,6 +4,7 @@ bodyClass: "page-home"
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
@@ -13,19 +14,26 @@ bodyClass: "page-home"
           {% include call.html show_button=true %}
         {% endif %}
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
 
-				<img
-				  alt="{{ page.title }}"
-				  class="intro-image{% if page.intro_image_absolute %} intro-image-home-profile{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
-				  src="{{ page.intro_image | relative_url }}"
-				/>
+      {% assign hero_media = page.hero_media | default: 'orb_spawn' %}
 
-      </div>
+      {% if hero_media == 'orb_spawn' or hero_media == 'animation' %}
+        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2">
+          <div class="home-hero-slot{% if page.intro_image_hide_on_mobile %} home-hero-slot--hide-mobile{% endif %}">
+            {% include orb_spawn_animation.html label=page.hero_animation_label %}
+          </div>
+        </div>
+      {% elsif page.intro_image %}
+        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+          <div class="home-hero-slot{% if page.intro_image_hide_on_mobile %} home-hero-slot--hide-mobile{% endif %}">
+            <img
+              alt="{{ page.title }}"
+              class="home-hero-image{% if page.intro_image_absolute %} home-hero-image--absolute{% endif %}"
+              src="{{ page.intro_image | relative_url }}"
+            />
+          </div>
+        </div>
       {% endif %}
-
     </div>
   </div>
 </div>
-

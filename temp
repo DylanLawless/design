@@ -87,6 +87,7 @@
 │   ├── technologies
 │   ├── technologies_gallery
 │   ├── technologies_readme.txt
+│   ├── temp
 │   ├── video_player_example.md
 │   └── videos
 ├── _team
@@ -105,10 +106,8 @@
 │   ├── qv_database
 │   ├── qv_submission.md
 │   └── submission_mailing_list.md
-├── blog.md
 ├── builtatlightspeed.json
 ├── contact.md
-├── demo.html
 ├── images
 │   ├── 2025_E_L_Laurent_etherial_precision
 │   ├── ORCID-iD_icon_vector.svg
@@ -126,22 +125,14 @@
 │   ├── social
 │   └── team
 ├── index.md
+├── inspo
 ├── jek.sh
 ├── kill_serve.sh
-├── learn.md
 ├── legal.md
-├── newsletter_signup.md
-├── partnerships.md
 ├── profile.md
-├── profile_long.md
 ├── profiles
-│   ├── biomedical_software_systems.md
-│   ├── clinical_data_infrastructure.md
-│   ├── deep_tech_product_strategy.md
-│   ├── precision_medicine.md
-│   └── statistical_genomics.md
+│   └── deep_tech_product_strategy.md
 ├── publications.md
-├── publications_selected.md
 ├── releases.md
 ├── team.md
 ├── technologies.md
@@ -159,4 +150,4 @@
     ├── quant_icons_thumbnail.jpg
     └── qv_thumbnail.jpg
 
-48 directories, 111 files
+48 directories, 102 files

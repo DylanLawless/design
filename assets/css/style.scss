@@ -5,7 +5,7 @@
 $primary: #e5261f;//swiss red
 $primary-dark: #a01b16;//dark red
 $secondary: #f88379;// light red 
-$black: #2f2f41;
+$black: #171720;
 $white: #ffffff;
 // $white-offset: #fff6f8;
 $white-offset: #f3f2f2;
@@ -17,13 +17,13 @@ $text-muted: $steel;
 $border-light: #d8d6d6;
 
 // Header
-$header-background-color: $black;
+$header-background-color: $white;
 $header-text-color: $white;
-$logo-text-color: $white;
+$logo-text-color: $black;
 
 // Menu
-$menu-link-color: $white;
-$menu-link-hover-color: $white;
+$menu-link-color: $black;
+$menu-link-hover-color: $black;
 $menu-link-active-color: $white;
 
 // Mobile menu
@@ -51,10 +51,30 @@ $sub-footer-background-color: darken($black, 7%);
 $sub-footer-text-color: $white;
 
 // Fonts
-$font-family-base: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-heading: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-// $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-// $font-family-heading: "Playfair Display", serif, -apple-system;
+// $font-family-base: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// $font-family-heading: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-VariableItalic.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Fonts
+$font-family-base: "Satoshi", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-heading: "Satoshi", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
 
 // Bootstrap 5.3.2
 
