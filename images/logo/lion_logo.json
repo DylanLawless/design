@@ -1,0 +1,274 @@
+{
+  "project": "Lawless Design lion and sphere emblem",
+  "purpose": "Create a refined heritage emblem for the bottom of the homepage.",
+  "format": {
+    "style": "Black line illustration",
+    "background": "Transparent or white",
+    "orientation": "Horizontal",
+    "usage": [
+      "Homepage footer",
+      "Maker's mark",
+      "Brand seal",
+      "Stationery",
+      "Print collateral"
+    ]
+  },
+  "overall_direction": {
+    "description": "A right-facing reclining lion in a refined Swiss heritage style, resting comfortably on its front legs with its head held high and one paw placed calmly on a perfect solid black sphere.",
+    "desired_feeling": [
+      "grand",
+      "mature",
+      "aristocratic",
+      "composed",
+      "patrician",
+      "institutional",
+      "Swiss",
+      "private banking",
+      "heritage",
+      "old wealth",
+      "calm authority"
+    ],
+    "avoid_feeling": [
+      "childish",
+      "cute",
+      "playful",
+      "cartoonish",
+      "sporty",
+      "mascot-like",
+      "aggressive",
+      "startup logo simplicity"
+    ]
+  },
+  "style_reference": {
+    "era": "1990s corporate heritage identity",
+    "category": "Swiss private banking or European insurance line-drawing emblem",
+    "visual_language": [
+      "restrained institutional linework",
+      "heritage corporate mark",
+      "engraved-style simplicity without excessive engraving detail",
+      "prestigious letterhead emblem",
+      "classical corporate identity"
+    ],
+    "not_reference": [
+      "sports team crest",
+      "children's illustration",
+      "modern flat startup icon",
+      "realistic wildlife drawing",
+      "decorative medieval coat of arms"
+    ]
+  },
+  "subject": {
+    "animal": "Lion",
+    "orientation": "Facing right",
+    "posture": "Reclining, elongated, couchant-style",
+    "attitude": "Aged relaxed comfort with head held proudly upright",
+    "symbolic_role": "Guardian of standards, house symbol, mark of authorship and heritage"
+  },
+  "pose": {
+    "body": {
+      "description": "The lion lies horizontally with a long, elegant body. The posture should feel comfortable and settled, but still dignified and alert.",
+      "requirements": [
+        "Long horizontal silhouette",
+        "Chest slightly lifted",
+        "Head upright",
+        "Back line smooth and noble",
+        "Hindquarters grounded and relaxed",
+        "Front body supported by extended forelegs",
+        "Latent power rather than active movement"
+      ],
+      "avoid": [
+        "compact sitting pose",
+        "springing or attacking posture",
+        "collapsed sleepy posture",
+        "cartoon roundness",
+        "overly muscular athletic anatomy"
+      ]
+    },
+    "front_legs": {
+      "description": "Both front legs should extend forward. One front paw rests on the perfect black sphere. The other front paw remains grounded, helping form the horizontal base.",
+      "requirements": [
+        "Paw on sphere must look deliberate and calm",
+        "Grounded paw should support the body naturally",
+        "Paws should be refined, not oversized or cartoon-like",
+        "Forelegs should create a strong, elegant base"
+      ]
+    },
+    "hindquarters": {
+      "description": "Rear body should be folded naturally into a reclining pose, with enough mass to suggest maturity and age.",
+      "requirements": [
+        "Grounded",
+        "Settled",
+        "Substantial",
+        "Not tucked too tightly",
+        "Not ready to leap"
+      ]
+    },
+    "tail": {
+      "description": "Tail extends backward in a controlled, elegant curve, optionally with a restrained upward curl at the end.",
+      "requirements": [
+        "Balances the long composition",
+        "Feels refined rather than playful",
+        "Completes the silhouette"
+      ],
+      "avoid": [
+        "decorative flourish",
+        "cartoon curl",
+        "overly lively tail"
+      ]
+    }
+  },
+  "head": {
+    "description": "The head is the key signal of authority, maturity, and heritage.",
+    "orientation": "Facing right",
+    "position": "Held above the body line with calm poise",
+    "expression": {
+      "desired": [
+        "wise",
+        "old",
+        "assured",
+        "composed",
+        "unthreatened",
+        "noble",
+        "vigilant"
+      ],
+      "avoid": [
+        "cute",
+        "smiling",
+        "sleepy",
+        "angry",
+        "roaring",
+        "mascot-like",
+        "theatrical"
+      ]
+    },
+    "features": {
+      "skull": "Broad and sculptural",
+      "muzzle": "Substantial, refined, and mature",
+      "brow": "Firm and composed",
+      "eye": "Small, restrained, intelligent",
+      "mouth": "Closed or minimally indicated, never smiling or roaring",
+      "nose": "Simple but dignified"
+    }
+  },
+  "mane": {
+    "description": "The mane should communicate age, status, and rank. It should be fuller and more sophisticated than the current version.",
+    "qualities": [
+      "full",
+      "mature",
+      "layered",
+      "architectural",
+      "composed",
+      "noble",
+      "carved"
+    ],
+    "treatment": [
+      "Use broad controlled shapes",
+      "Frame the face strongly",
+      "Flow naturally into the chest",
+      "Include enough detail to feel premium",
+      "Avoid excessive naturalistic hair detail"
+    ],
+    "avoid": [
+      "fluffy mane",
+      "spiky comic-book shapes",
+      "too few strands",
+      "scruffy wild hair",
+      "juvenile simplification"
+    ]
+  },
+  "sphere": {
+    "description": "The sphere is the existing brand symbol and must remain visually sacred.",
+    "form": "Perfect circle",
+    "fill": "Solid black",
+    "texture": "None",
+    "shading": "None",
+    "outline": "No outline unless required for reproduction",
+    "placement": {
+      "description": "Low and grounded in front of the lion's chest and forelegs.",
+      "paw_contact": "One front paw rests calmly on the upper edge or upper quadrant of the sphere."
+    },
+    "symbolic_reading": [
+      "house symbol",
+      "formal brand emblem",
+      "protected standard",
+      "object of stewardship",
+      "owned with dignity"
+    ],
+    "avoid_reading": [
+      "toy",
+      "football",
+      "random prop",
+      "decorative dot"
+    ]
+  },
+  "linework": {
+    "colour": "Black",
+    "style": "Refined line drawing",
+    "outer_contour": "Slightly heavier outer contour is acceptable",
+    "inner_lines": "Disciplined, sparse, and purposeful",
+    "detail_level": "More sophisticated than a simple icon, less detailed than a literal illustration",
+    "scalability": "Must remain clear at small sizes",
+    "avoid": [
+      "weak thin lines",
+      "overly uniform childish outline",
+      "excessive fur texture",
+      "shading",
+      "realistic rendering",
+      "decorative ornament"
+    ]
+  },
+  "composition": {
+    "overall_shape": "Low, elongated horizontal mark",
+    "balance": [
+      "Lion body occupies most of the horizontal span",
+      "Sphere creates the front symbolic anchor",
+      "Tail balances the rear",
+      "Head and mane create restrained vertical emphasis",
+      "The whole mark should remain compact enough to feel logo-like"
+    ],
+    "homepage_fit": "Should sit quietly and confidently at the bottom of a homepage without feeling like a mascot or illustration."
+  },
+  "heritage_cues": {
+    "convey_through": [
+      "proportion",
+      "discipline",
+      "line control",
+      "dignity",
+      "understatement",
+      "measured asymmetry",
+      "confidence without flourish"
+    ],
+    "avoid": [
+      "mountains",
+      "flags",
+      "Swiss crosses",
+      "literal medieval ornament",
+      "shield decoration",
+      "tourist imagery"
+    ]
+  },
+  "negative_constraints": [
+    "No childish simplification",
+    "No rounded cartoon softness",
+    "No smiling expression",
+    "No friendly mascot energy",
+    "No sports logo energy",
+    "No aggressive claws",
+    "No roaring mouth",
+    "No oversized cartoon paws",
+    "No playful interaction with the sphere",
+    "No excessive modern tech-logo flatness",
+    "No literal fur texture",
+    "No hyper-realistic anatomy"
+  ],
+  "success_criteria": [
+    "Feels like the emblem of an old, respected, high-status Swiss house",
+    "Signals private banking heritage and institutional trust",
+    "The lion appears mature, relaxed, and dignified",
+    "The sphere remains a perfect black brand symbol",
+    "The pose is elongated and reclining, not sitting upright",
+    "The mark is refined enough for premium stationery and homepage footer use",
+    "The image reads as heritage logo, not friendly lion icon"
+  ],
+  "condensed_prompt": "A right-facing reclining lion, elongated and resting comfortably on its front legs with head held high, drawn in a refined 1990s Swiss private-banking line style. The lion has a mature noble mane, calm intelligent expression, long settled body, and one front paw placed deliberately on a perfect solid black sphere. The emblem should convey grand heritage, status, restraint, institutional authority, and old Swiss house prestige. Black line illustration on transparent or white background."
+}

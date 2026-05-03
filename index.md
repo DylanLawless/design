@@ -5,6 +5,8 @@ description: Design house with heritage in marketing and brand identity.
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: false
+sentinel_image: images/logo/lion_logo.png
+sentinel_alt: Lawless lion mark
 ---
 
 <!-- intro_image: "images/profile/dylan_small.jpg" -->
@@ -31,10 +33,3 @@ A market and UX design agency
 <!--     Contact -->
 <!--   </a> -->
 <!-- </div> -->
-
-
-<!-- {% include orb_spawn_animation.html %} -->
-
-
-
-

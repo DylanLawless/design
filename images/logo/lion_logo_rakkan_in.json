@@ -1,0 +1,471 @@
+{
+  "project": "Lawless Design Swiss rakkan-in lion and sphere seal",
+  "purpose": "Create a refined Swiss house seal for the bottom of the homepage, functioning as a maker's mark, authorship seal, and heritage emblem.",
+  "core_concept": {
+    "description": "A Swiss reinterpretation of a rakkan-in / hanko seal, using the formal logic of a carved square artist stamp but expressed through Zurich restraint, European heraldic dignity, and the Lawless Design black sphere.",
+    "should_look_like": [
+      "mark of authorship",
+      "carved signature seal",
+      "family or atelier emblem",
+      "premium institutional stamp",
+      "compact homepage footer symbol",
+      "seal worthy of embossing, stamping, or printed collateral"
+    ],
+    "should_not_look_like": [
+      "modern mascot",
+      "cartoon lion",
+      "loose illustration",
+      "decorative crest",
+      "literal Japanese seal with Japanese motifs",
+      "sports emblem",
+      "startup icon"
+    ],
+    "design_philosophy": "The spirit should be rakkan-in, but the form should be Swiss, proprietary, restrained, and institutional."
+  },
+  "format": {
+    "overall_shape": "Contained square seal",
+    "background": "Transparent or white",
+    "colour": "Black only",
+    "style": "Carved black line seal illustration",
+    "orientation": "Square seal with horizontal lion composition inside",
+    "usage": [
+      "Homepage footer",
+      "Maker's mark",
+      "Brand seal",
+      "Stationery",
+      "Embossing",
+      "Stamping",
+      "Print collateral",
+      "Premium brand authentication"
+    ]
+  },
+  "outer_border": {
+    "description": "A square outline border with subtly softened, hand-carved corners. The border is essential to giving the mark its rakkan-in seal authority.",
+    "shape": {
+      "type": "Near-perfect square",
+      "corners": "Slightly curved and softened",
+      "avoid": [
+        "app-icon rounded rectangle",
+        "mathematically sharp UI box",
+        "cartoon-like thick outline",
+        "rough rustic frame"
+      ]
+    },
+    "character": [
+      "formal but human",
+      "carved by hand",
+      "disciplined",
+      "premium",
+      "slightly tactile",
+      "not sterile"
+    ],
+    "thickness": {
+      "relative_weight": "Slightly heavier than most inner lines",
+      "hierarchy": [
+        "Outer border strongest",
+        "Main lion contour second strongest",
+        "Inner anatomical lines lightest and fewest"
+      ],
+      "requirements": [
+        "Stable enough to hold the seal together",
+        "Thin enough to remain elegant",
+        "Feels like the perimeter cut of a proper seal face"
+      ]
+    },
+    "surface": {
+      "allowed": [
+        "tiny irregularities",
+        "slight pressure variation",
+        "minor evidence of tool movement at corners"
+      ],
+      "avoid": [
+        "grunge distress",
+        "rough artisan texture",
+        "exaggerated handmade wobble",
+        "digitally sterile perfection"
+      ]
+    },
+    "relationship_to_interior": {
+      "description": "The lion should sit inside the square with deliberate tension. It should feel embedded in the seal, not floating inside a box.",
+      "requirements": [
+        "Interior elements close enough to feel integrated",
+        "Enough margin to avoid cramped feeling",
+        "Mane or tail may come near the border to create carved seal compression",
+        "Sphere must not touch the border"
+      ]
+    }
+  },
+  "overall_structure_inside_square": {
+    "description": "The composition should be treated as compressed seal architecture rather than an illustration placed inside a frame.",
+    "spatial_arrangement": [
+      "Lion runs horizontally across the lower two-thirds of the square",
+      "Head lifts into the upper-left or upper-central area, while still facing right",
+      "Body lies elongated, grounded, and calm",
+      "Sphere sits low and forward under the front paw",
+      "Tail curves back in a controlled way to complete the right side",
+      "Square border contains all elements and gives the mark stamp authority"
+    ],
+    "visual_priority": [
+      "Outer square seal border",
+      "Lion silhouette and posture",
+      "Perfect black sphere",
+      "Internal carved line rhythms such as mane, face, shoulder, and limb separations"
+    ],
+    "first_read": "The mark should read as one coherent seal, not as separate lion, sphere, and border components."
+  },
+  "subject": {
+    "animal": "Lion",
+    "orientation": "Facing right",
+    "posture": "Elongated reclining couchant posture",
+    "attitude": "Old guardian at ease, mature, calm, authoritative, dignified",
+    "symbolic_role": [
+      "guardian of standards",
+      "house symbol",
+      "mark of authorship",
+      "carrier of heritage",
+      "protector of the sphere"
+    ]
+  },
+  "lion_pose": {
+    "body": {
+      "description": "The lion reclines horizontally in a long, calm, aged posture, adapted to the logic of a carved square stamp.",
+      "requirements": [
+        "Long body",
+        "Chest low and relaxed",
+        "Head raised",
+        "Forelegs extended",
+        "One paw resting on the sphere",
+        "Hindquarters folded in a calm settled way",
+        "Tail curved with elegance",
+        "Latent power rather than active movement",
+        "Comfort earned by status"
+      ],
+      "avoid": [
+        "young lion in performance",
+        "springing pose",
+        "compact sitting pose",
+        "sleepy collapse",
+        "athletic mascot energy",
+        "cartoon roundness"
+      ]
+    },
+    "front_legs": {
+      "description": "Both forelegs extend forward. One front paw rests on the sphere, while the other remains grounded to form the horizontal base.",
+      "paw_on_sphere": {
+        "character": [
+          "calm authority",
+          "ceremonial contact",
+          "custody",
+          "authorship",
+          "guardianship",
+          "house possession"
+        ],
+        "avoid": [
+          "pressure distortion of sphere",
+          "playfulness",
+          "batting or touching casually",
+          "gripping like a toy"
+        ]
+      },
+      "grounded_paw": "Relaxed, refined, and supportive, not oversized or cartoon-like."
+    },
+    "hindquarters": {
+      "description": "Rear body folded naturally into the reclining posture with enough weight to imply maturity and age.",
+      "requirements": [
+        "Grounded",
+        "Settled",
+        "Substantial",
+        "Calm",
+        "Not tucked too tightly",
+        "Not ready to leap"
+      ]
+    },
+    "tail": {
+      "description": "Tail curves back in a controlled and elegant manner, helping complete the right side of the square.",
+      "requirements": [
+        "Balances the seal composition",
+        "Feels refined, not playful",
+        "Can approach the border without touching it if compositionally useful"
+      ],
+      "avoid": [
+        "decorative flourish",
+        "cartoon curl",
+        "overly lively movement"
+      ]
+    }
+  },
+  "head_and_expression": {
+    "orientation": "Facing right",
+    "position": "Held upright and slightly proud, but not tilted too high",
+    "desired_effect": [
+      "forward orientation",
+      "dignity",
+      "intentionality",
+      "quiet progress",
+      "settled self-possession"
+    ],
+    "expression": {
+      "desired": [
+        "calm",
+        "noble",
+        "wise",
+        "old",
+        "assured",
+        "composed",
+        "vigilant",
+        "unthreatened"
+      ],
+      "features": [
+        "closed mouth",
+        "quiet eye",
+        "firm brow",
+        "mature muzzle",
+        "broad sculptural skull",
+        "simple dignified nose"
+      ],
+      "avoid": [
+        "friendly smile",
+        "roar",
+        "cute expression",
+        "sleepy face",
+        "anger",
+        "theatrical upward gaze",
+        "mascot face"
+      ]
+    }
+  },
+  "mane": {
+    "description": "The mane is a key place for the rakkan-in carving character. It should be stylised as carved flowing masses rather than naturalistic hair.",
+    "qualities": [
+      "stylised",
+      "layered",
+      "reduced",
+      "slightly monumental",
+      "mature",
+      "architectural",
+      "noble",
+      "carved"
+    ],
+    "treatment": [
+      "Outer contour of mane should be bold",
+      "Inner separations should be few and deliberate",
+      "Mane should frame the face strongly",
+      "Mane should flow into the chest",
+      "Use broad controlled shapes like elegant channels cut into a stamp"
+    ],
+    "avoid": [
+      "soft fluffy mane",
+      "naturalistic fur detail",
+      "too many hair lines",
+      "spiky comic-book locks",
+      "scruffy wild appearance",
+      "juvenile simplification"
+    ]
+  },
+  "sphere": {
+    "description": "The sphere is the existing brand symbol and should remain the only truly absolute form inside the seal.",
+    "form": "Perfect circle",
+    "fill": "Solid black",
+    "texture": "None",
+    "shading": "None",
+    "ornament": "None",
+    "outline": "No outline unless required for reproduction",
+    "placement": {
+      "position": "Low and slightly forward, under the lion's front paw",
+      "margin": "Comfortably inside the border with breathing room",
+      "avoid": [
+        "touching the outer border",
+        "floating too loosely",
+        "appearing like a toy or ball"
+      ]
+    },
+    "symbolic_reading": [
+      "house symbol",
+      "formal brand emblem",
+      "protected standard",
+      "object of stewardship",
+      "owned with dignity",
+      "sacred black form"
+    ]
+  },
+  "line_logic": {
+    "principle": "Every visible black line should feel like the result of a controlled cut into material.",
+    "linework_style": [
+      "intentional",
+      "controlled",
+      "cut rather than sketched",
+      "balanced between positive and negative space",
+      "premium hand-carved rather than rough handmade"
+    ],
+    "outer_contour_lines": {
+      "description": "Lion outer contour should be clean, confident, and slightly weighty.",
+      "defines": [
+        "head silhouette",
+        "mane silhouette",
+        "back",
+        "chest",
+        "limbs",
+        "tail"
+      ]
+    },
+    "inner_lines": {
+      "description": "Inner lines should be sparse and disciplined.",
+      "allowed": [
+        "one or two lines for the mane",
+        "minimal facial line",
+        "one line for shoulder or chest transition",
+        "one line for hindquarter mass if needed"
+      ],
+      "avoid": [
+        "too many anatomical cuts",
+        "dense illustration detail",
+        "excessive fur detail",
+        "random decorative lines"
+      ]
+    },
+    "carved_character": {
+      "allowed": [
+        "slight organic taper at line ends",
+        "mild unevenness in thickness",
+        "tiny evidence of tool turns in corners",
+        "calm controlled irregularity"
+      ],
+      "avoid": [
+        "distressed texture",
+        "grunge",
+        "rough craft look",
+        "overdone handmade effects"
+      ]
+    }
+  },
+  "positive_negative_space": {
+    "description": "The enclosed square should function as a field of black and white balance, giving the mark true rakkan-in flavour.",
+    "requirements": [
+      "Enough white space for air and dignity",
+      "Enough black structure for weight and authority",
+      "Clear rhythm between dense and open areas",
+      "Compact but not crowded"
+    ],
+    "denser_zones": [
+      "outer border",
+      "mane area",
+      "lion head silhouette",
+      "sphere"
+    ],
+    "more_open_zones": [
+      "body interior",
+      "space above the back",
+      "small pockets around forelegs",
+      "small pockets around tail"
+    ],
+    "avoid": [
+      "overcrowding",
+      "too much empty space",
+      "visual fragmentation",
+      "overly illustrative detail"
+    ]
+  },
+  "composition": {
+    "outer_proportion": "Near-perfect square",
+    "interior_margin": {
+      "description": "Modest margin between border and drawing.",
+      "desired_feeling": [
+        "formal compression",
+        "premium containment",
+        "enough air for elegance"
+      ],
+      "avoid": [
+        "wide loose margins",
+        "cramped trapped drawing"
+      ]
+    },
+    "positioning": [
+      "Head in upper-left to mid-left zone while facing right",
+      "Body runs horizontally across the centre and lower two-thirds",
+      "Sphere in lower-left front zone",
+      "Tail completes right lower or mid-right zone",
+      "Mane and tail may approach border to integrate the image"
+    ],
+    "homepage_fit": "The seal should be compact enough for a homepage footer while retaining authority and legibility."
+  },
+  "surface_character": {
+    "description": "Even if the production asset is crisp, it should anticipate the feel of a real stamped impression.",
+    "desired": [
+      "slightly tactile",
+      "slightly pressure-born",
+      "premium ink transfer",
+      "seal impressed with confidence",
+      "minimal softening from material contact",
+      "elite and clean"
+    ],
+    "avoid": [
+      "distressed",
+      "grunge",
+      "rough artisan craft",
+      "dirty stamp texture",
+      "overly digital flatness"
+    ]
+  },
+  "heritage_cues": {
+    "desired_feeling": [
+      "noble",
+      "quiet",
+      "carved",
+      "disciplined",
+      "inherited",
+      "Swiss",
+      "artisanal in the highest sense",
+      "modern enough for a homepage",
+      "old enough to feel like it has always existed"
+    ],
+    "convey_through": [
+      "proportion",
+      "line control",
+      "dignity",
+      "understatement",
+      "measured asymmetry",
+      "confident restraint",
+      "compressed square seal logic"
+    ],
+    "avoid": [
+      "mountains",
+      "flags",
+      "Swiss crosses",
+      "literal medieval ornament",
+      "tourist imagery",
+      "decorative shield elements",
+      "Japanese characters or explicit Japanese motifs"
+    ]
+  },
+  "negative_constraints": [
+    "No cartoon softness",
+    "No childish simplification",
+    "No over-detailed anatomy",
+    "No excessive fur",
+    "No modern icon flatness",
+    "No decorative medieval crest language",
+    "No rough distressed stamp texture",
+    "No playful tail",
+    "No playful paw interaction",
+    "No smiling expression",
+    "No roaring mouth",
+    "No sports mascot energy",
+    "No sphere distortion",
+    "No sphere touching the border",
+    "No cluttered interior"
+  ],
+  "success_criteria": [
+    "Reads first as one coherent square seal",
+    "Feels master-carved, not digitally illustrated",
+    "Feels Swiss, restrained, and proprietary rather than Japanese-literal",
+    "Looks like a mark of authorship for a high-status design house",
+    "The lion is mature, calm, elongated, reclining, and right-facing",
+    "The head is upright and noble without being theatrical",
+    "The paw rests on the sphere with calm authority",
+    "The sphere remains a perfect solid black brand symbol",
+    "The border feels hand-carved with subtly softened corners",
+    "The mark would work as a real one-colour stamp, emboss, or homepage footer seal"
+  ],
+  "literal_final_image_description": "A compact square seal with a black outline border and subtly softened hand-carved corners. Inside it, a right-facing lion reclines in an elongated, elegant posture, occupying most of the lower field. Its head is upright and noble, its mane is stylised into restrained carved forms, and one front paw rests with calm authority on a perfect black sphere placed low in front. The whole composition is balanced, quiet, and seal-like, with strong black linework, refined negative space, and the feeling of a master-carved Swiss house emblem designed to stamp authorship onto finished work.",
+  "condensed_prompt": "A master-carved Swiss rakkan-in style square seal with slightly softened corners, containing a right-facing elongated reclining lion in noble repose, its paw resting calmly on a perfect solid black sphere. Rendered with disciplined black lines, restrained inner carving, balanced negative space, and the quiet authority of an inherited Zurich house mark. Black only, transparent or white background, premium stamp-like finish, not cartoon, not mascot, not distressed."
+}

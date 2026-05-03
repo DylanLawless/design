@@ -5,7 +5,7 @@ bodyClass: "page-home"
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-<div class="intro">
+<div class="intro home-intro">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
@@ -37,3 +37,19 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
+
+{% if page.sentinel_image %}
+  <div class="home-sentinel">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-12 col-md-7 col-lg-6">
+          <img
+            class="home-sentinel__image"
+            src="{{ page.sentinel_image | relative_url }}"
+            alt="{{ page.sentinel_alt | default: 'Brand mark' }}"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
