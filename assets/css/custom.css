@@ -17,6 +17,120 @@
   display: block;
 }
 
+/* Home hero */
+
+.page-home .split-heading {
+  max-width: 38rem;
+  margin-bottom: 1rem;
+}
+
+.page-home .split-heading-main {
+  font-size: clamp(2.1rem, 4vw, 3.6rem);
+  line-height: 1.05;
+  font-weight: 700;
+  color: #171720;
+}
+
+.page-home .split-heading-meta {
+  max-width: 34rem;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #5c5a5a;
+}
+
+.home-cta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: 1.25rem;
+  padding-bottom: 1.2rem;
+}
+
+.home-cta-button {
+  min-height: 46px;
+  padding: 0 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  box-shadow:
+    0 8px 18px rgba(23, 23, 32, 0.12),
+    0 2px 5px rgba(23, 23, 32, 0.10);
+}
+
+.home-cta-button:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+  .page-home .split-heading-main {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+  }
+
+  .page-home .split-heading-meta {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  .home-cta-row {
+    margin-top: 1rem;
+    padding-bottom: 1.4rem;
+  }
+}
+
+/* Home sentinel */
+
+.home-sentinel {
+  padding: 1.5rem 0 2.5rem;
+}
+
+.home-sentinel__inner {
+  --home-sentinel-baseline-offset: 0px;
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.home-sentinel__image {
+  display: block;
+  width: clamp(72px, 8vw, 104px);
+  height: auto;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+  padding-bottom: var(--home-sentinel-baseline-offset);
+}
+
+.home-sentinel__text {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: #5c5a5a;
+  white-space: nowrap;
+}
+
+@media (max-width: 767.98px) {
+  .home-sentinel__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .home-sentinel__image {
+    padding-bottom: 0;
+  }
+
+  .home-sentinel__text {
+    font-size: 0.8rem;
+    white-space: normal;
+  }
+}
+
 /* publications page badges */
 .publication-dimensions,
 .publication-dimensions .__dimensions_badge_embed__,
@@ -27,10 +141,9 @@
         margin-left: 0.35rem;
           margin-top: -0.35rem !important;
             margin-bottom: 0 !important;
-          }
+}
 
-          /* Profile CV page */
-
+/* Profile CV page */
 .profile-page {
 }
 

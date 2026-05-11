@@ -38,6 +38,8 @@ bodyClass: "page-home"
   </div>
 </div>
 
+
+<!--
 {% if page.sentinel_image %}
   <div class="home-sentinel">
     <div class="container">
@@ -48,6 +50,28 @@ bodyClass: "page-home"
             src="{{ page.sentinel_image | relative_url }}"
             alt="{{ page.sentinel_alt | default: 'Brand mark' }}"
           />
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+-->
+
+{% if page.sentinel_image %}
+  <div class="home-sentinel">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-12 col-md-7 col-lg-6">
+          <div class="home-sentinel__inner">
+            <img
+              class="home-sentinel__image"
+              src="{{ page.sentinel_image | relative_url }}"
+              alt="{{ page.sentinel_alt | default: 'Brand mark' }}"
+            />
+            {% if page.sentinel_text %}
+              <div class="home-sentinel__text">{{ page.sentinel_text }}</div>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>
