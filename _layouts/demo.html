@@ -1,0 +1,38 @@
+---
+layout: default_no_brand
+bodyClass: "page-bio-demo"
+---
+
+<link href="{{ '/assets/css/bio-demo.css' | relative_url }}" rel="stylesheet">
+
+<main class="bio-demo-page">
+  <section class="bio-demo-hero">
+    <div class="bio-demo-copy">
+      <p class="bio-demo-kicker" id="bio-demo-kicker">DNA sequencing</p>
+      <h1 class="bio-demo-title" id="bio-demo-title">From DNA to medicine.</h1>
+
+      <div class="bio-demo-body-wrap" id="bio-demo-body-wrap">
+        <p class="bio-demo-body" id="bio-demo-body">
+          Sequencing turns inherited code into readable data.
+        </p>
+      </div>
+
+      <div class="bio-demo-progress" aria-label="Demo progress">
+        <span class="bio-demo-step is-active"></span>
+        <span class="bio-demo-step"></span>
+        <span class="bio-demo-step"></span>
+        <span class="bio-demo-step"></span>
+        <span class="bio-demo-step"></span>
+      </div>
+
+      <a href="{{ '/contact/' | relative_url }}" class="button-link bio-demo-button">Contact</a>
+    </div>
+
+    <div class="bio-demo-stage" aria-label="Animated molecular system">
+      <canvas id="bio-demo-canvas"></canvas>
+    </div>
+  </section>
+</main>
+
+<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+<script src="{{ '/assets/js/bio-demo.js' | relative_url }}"></script>

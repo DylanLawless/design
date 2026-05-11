@@ -1,0 +1,71 @@
+<main class="omics-demo-page" data-omics-demo>
+  <section class="omics-demo-hero">
+    <div class="omics-demo-copy">
+      <p class="omics-demo-kicker" data-omics-kicker>DNA sequencing</p>
+
+      <h1 class="omics-demo-title" data-omics-title>
+        From DNA to medicine.
+      </h1>
+
+      <div class="omics-demo-body-wrap">
+        <p class="omics-demo-body" data-omics-body>
+          Sequencing turns inherited code into readable data.
+        </p>
+      </div>
+
+      <div class="omics-demo-progress" aria-label="Demo progress" data-omics-progress>
+        <span class="omics-demo-step is-active"></span>
+        <span class="omics-demo-step"></span>
+        <span class="omics-demo-step"></span>
+        <span class="omics-demo-step"></span>
+        <span class="omics-demo-step"></span>
+      </div>
+
+      <div class="omics-demo-controls">
+        <button type="button" class="omics-demo-control" data-omics-prev>
+          Previous
+        </button>
+
+        <button type="button" class="omics-demo-control omics-demo-control-primary" data-omics-next>
+          Next step
+        </button>
+      </div>
+
+    </div>
+
+    <div class="omics-demo-stage" aria-label="Animated molecular system">
+      <div class="omics-demo-visual is-active" data-omics-visual="dna">
+        <div class="omics-demo-sequence" data-sequence-layer data-alphabet="ATGC"></div>
+        <canvas class="omics-demo-canvas" data-omics-canvas="dna"></canvas>
+      </div>
+
+      <div class="omics-demo-visual" data-omics-visual="rna">
+        <div class="omics-demo-sequence" data-sequence-layer data-alphabet="AUGC"></div>
+        <canvas class="omics-demo-canvas" data-omics-canvas="rna"></canvas>
+      </div>
+
+      <div class="omics-demo-visual" data-omics-visual="protein">
+        <div class="omics-demo-sequence" data-sequence-layer data-alphabet="ARNDCQEGHILKMFPSTWYV"></div>
+
+        <div class="omics-demo-protein-logo-wrap">
+          <img
+            src="{{ '/images/demo/logo.png' | relative_url }}"
+            alt="Protein interpretation logo"
+            class="omics-demo-protein-logo"
+            loading="eager"
+          >
+        </div>
+      </div>
+
+      <div class="omics-demo-visual" data-omics-visual="disease">
+        <div class="omics-demo-sequence" data-sequence-layer data-alphabet="ATGC"></div>
+        <canvas class="omics-demo-canvas" data-omics-canvas="disease"></canvas>
+      </div>
+
+      <div class="omics-demo-visual" data-omics-visual="medicine">
+        <div class="omics-demo-sequence" data-sequence-layer data-alphabet="AUGC"></div>
+        <canvas class="omics-demo-canvas" data-omics-canvas="medicine"></canvas>
+      </div>
+    </div>
+  </section>
+</main>

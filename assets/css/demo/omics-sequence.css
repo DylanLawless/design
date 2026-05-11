@@ -1,0 +1,331 @@
+.omics-demo-page,
+.omics-demo-page * {
+  box-sizing: border-box;
+}
+
+.omics-demo-page {
+  background: transparent;
+  color: #171720;
+}
+
+.omics-demo-hero {
+  min-height: calc(100vh - 120px);
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 5rem);
+  padding: clamp(2rem, 5vw, 5rem);
+}
+
+.omics-demo-copy {
+  max-width: 34rem;
+}
+
+.omics-demo-kicker {
+  min-height: 1.1rem;
+  margin: 0 0 0.75rem;
+  font-size: 0.82rem;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #5c5a5a;
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.omics-demo-title {
+  min-height: clamp(4.4rem, 10vw, 8.4rem);
+  margin: 0;
+  font-size: clamp(2.2rem, 5vw, 4.2rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #171720;
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.omics-demo-body-wrap {
+  min-height: 4.8rem;
+  margin-top: 1rem;
+  max-width: 30rem;
+}
+
+.omics-demo-body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #5c5a5a;
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.omics-demo-copy.is-changing .omics-demo-kicker,
+.omics-demo-copy.is-changing .omics-demo-title,
+.omics-demo-copy.is-changing .omics-demo-body {
+  opacity: 0;
+  transform: none;
+}
+
+.omics-demo-progress {
+  display: flex;
+  gap: 0.45rem;
+  margin-top: 1.25rem;
+}
+
+.omics-demo-step {
+  width: 1.7rem;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(23, 23, 32, 0.16);
+  transition:
+    background-color 220ms ease,
+    width 220ms ease;
+}
+
+.omics-demo-step.is-active {
+  width: 2.4rem;
+  background: rgba(23, 23, 32, 0.78);
+}
+
+.omics-demo-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.4rem;
+}
+
+.omics-demo-control {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 18px;
+  border: 1px solid rgba(23, 23, 32, 0.16);
+  border-radius: 999px;
+  background: transparent;
+  color: #171720;
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.omics-demo-control:hover {
+  border-color: rgba(23, 23, 32, 0.32);
+  background: rgba(23, 23, 32, 0.04);
+}
+
+.omics-demo-control-primary {
+  background: #171720;
+  color: #ffffff;
+  border-color: #171720;
+}
+
+.omics-demo-control-primary:hover {
+  background: #2f2f41;
+  color: #ffffff;
+  border-color: #2f2f41;
+}
+
+.omics-demo-button {
+  margin-top: 1.2rem;
+  border-radius: 999px;
+}
+
+.omics-demo-button:hover {
+  text-decoration: none;
+}
+
+.omics-demo-stage {
+  position: relative;
+  width: 100%;
+  height: clamp(420px, 58vw, 620px);
+  min-height: clamp(420px, 58vw, 620px);
+  overflow: hidden;
+  background: transparent;
+}
+
+.omics-demo-stage::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  width: min(58vw, 520px);
+  height: min(58vw, 520px);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at center, rgba(23, 23, 32, 0.08), rgba(23, 23, 32, 0) 68%);
+  transform: translate(-50%, -50%);
+  filter: blur(16px);
+  pointer-events: none;
+}
+
+.omics-demo-visual {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 300ms ease,
+    transform 300ms ease;
+  transform: translateY(8px);
+}
+
+.omics-demo-visual.is-active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.omics-demo-canvas {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+
+.omics-demo-canvas:active {
+  cursor: grabbing;
+}
+
+.omics-demo-sequence {
+  position: absolute;
+  inset: 7%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(18, minmax(0, 1fr));
+  grid-auto-rows: minmax(0, 1fr);
+  gap: 0.45rem 0.65rem;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.92;
+  mask-image: radial-gradient(circle at center, black 0%, black 48%, transparent 76%);
+  -webkit-mask-image: radial-gradient(circle at center, black 0%, black 48%, transparent 76%);
+}
+
+.omics-demo-sequence span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: clamp(0.56rem, 1vw, 0.74rem);
+  line-height: 1;
+  color: rgba(92, 90, 90, 0.24);
+  transition:
+    color 500ms ease,
+    opacity 500ms ease,
+    transform 500ms ease;
+}
+
+.omics-demo-sequence span.is-changing {
+  color: rgba(23, 23, 32, 0.72);
+  transform: scale(1.08);
+}
+
+.omics-demo-protein-logo-wrap {
+  position: relative;
+  z-index: 2;
+  width: min(62%, 360px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  animation: omics-protein-float 100s ease-in-out 1 forwards;
+  transform-origin: center center;
+}
+
+.omics-demo-protein-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 18px 34px rgba(23, 23, 32, 0.12))
+    drop-shadow(0 3px 10px rgba(23, 23, 32, 0.08));
+}
+
+@keyframes omics-protein-float {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  16% {
+    transform: translate3d(18px, 14px, 0) scale(1.07);
+  }
+
+  32% {
+    transform: translate3d(-12px, 10px, 0) scale(1.05);
+  }
+
+  48% {
+    transform: translate3d(10px, -14px, 0) scale(1.04);
+  }
+
+  64% {
+    transform: translate3d(-8px, -6px, 0) scale(1.03);
+  }
+
+  82% {
+    transform: translate3d(4px, 2px, 0) scale(1.02);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .omics-demo-hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  .omics-demo-title {
+    min-height: auto;
+  }
+
+  .omics-demo-body-wrap {
+    min-height: 6rem;
+  }
+
+  .omics-demo-stage {
+    height: 420px;
+    min-height: 420px;
+  }
+
+  .omics-demo-sequence {
+    inset: 4%;
+    grid-template-columns: repeat(14, minmax(0, 1fr));
+    gap: 0.35rem 0.45rem;
+  }
+
+  .omics-demo-protein-logo-wrap {
+    width: min(72%, 320px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .omics-demo-copy.is-changing .omics-demo-kicker,
+  .omics-demo-copy.is-changing .omics-demo-title,
+  .omics-demo-copy.is-changing .omics-demo-body,
+  .omics-demo-visual,
+  .omics-demo-sequence span,
+  .omics-demo-protein-logo-wrap {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+}

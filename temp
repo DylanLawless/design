@@ -1,73 +1,680 @@
-/Users/dylanlawless/so/web/design/assets/fonts/Satoshi_Complete/
-├── EULA
-│   └── Fontshare\ EULA.txt
-└── Fonts
-    ├── OTF
-    │   ├── Satoshi-Black.otf
-    │   ├── Satoshi-BlackItalic.otf
-    │   ├── Satoshi-Bold.otf
-    │   ├── Satoshi-BoldItalic.otf
-    │   ├── Satoshi-Italic.otf
-    │   ├── Satoshi-Light.otf
-    │   ├── Satoshi-LightItalic.otf
-    │   ├── Satoshi-Medium.otf
-    │   ├── Satoshi-MediumItalic.otf
-    │   └── Satoshi-Regular.otf
-    ├── Variable
-    │   ├── Satoshi-Variable.ttf
-    │   └── Satoshi-VariableItalic.ttf
-    └── WEB
-        ├── README.md
-        ├── css
-        │   └── satoshi.css
-        └── fonts
-            ├── Satoshi-Black.eot
-            ├── Satoshi-Black.ttf
-            ├── Satoshi-Black.woff
-            ├── Satoshi-Black.woff2
-            ├── Satoshi-BlackItalic.eot
-            ├── Satoshi-BlackItalic.ttf
-            ├── Satoshi-BlackItalic.woff
-            ├── Satoshi-BlackItalic.woff2
-            ├── Satoshi-Bold.eot
-            ├── Satoshi-Bold.ttf
-            ├── Satoshi-Bold.woff
-            ├── Satoshi-Bold.woff2
-            ├── Satoshi-BoldItalic.eot
-            ├── Satoshi-BoldItalic.ttf
-            ├── Satoshi-BoldItalic.woff
-            ├── Satoshi-BoldItalic.woff2
-            ├── Satoshi-Italic.eot
-            ├── Satoshi-Italic.ttf
-            ├── Satoshi-Italic.woff
-            ├── Satoshi-Italic.woff2
-            ├── Satoshi-Light.eot
-            ├── Satoshi-Light.ttf
-            ├── Satoshi-Light.woff
-            ├── Satoshi-Light.woff2
-            ├── Satoshi-LightItalic.eot
-            ├── Satoshi-LightItalic.ttf
-            ├── Satoshi-LightItalic.woff
-            ├── Satoshi-LightItalic.woff2
-            ├── Satoshi-Medium.eot
-            ├── Satoshi-Medium.ttf
-            ├── Satoshi-Medium.woff
-            ├── Satoshi-Medium.woff2
-            ├── Satoshi-MediumItalic.eot
-            ├── Satoshi-MediumItalic.ttf
-            ├── Satoshi-MediumItalic.woff
-            ├── Satoshi-MediumItalic.woff2
-            ├── Satoshi-Regular.eot
-            ├── Satoshi-Regular.ttf
-            ├── Satoshi-Regular.woff
-            ├── Satoshi-Regular.woff2
-            ├── Satoshi-Variable.eot
-            ├── Satoshi-Variable.ttf
-            ├── Satoshi-Variable.woff
-            ├── Satoshi-Variable.woff2
-            ├── Satoshi-VariableItalic.eot
-            ├── Satoshi-VariableItalic.ttf
-            ├── Satoshi-VariableItalic.woff
-            └── Satoshi-VariableItalic.woff2
+.
+├── 404.html
+├── CNAME
+├── Gemfile
+├── Gemfile.lock
+├── LICENSE
+├── README.md
+├── _blog
+│   └── founder_stories_wiriting_guide.md
+├── _config.yml
+├── _data
+│   ├── collaborator_logos.yml
+│   ├── contact.yml
+│   ├── features.json
+│   ├── menus.yml
+│   ├── publications.yml
+│   ├── seo.yml
+│   └── social.json
+├── _includes
+│   ├── call.html
+│   ├── collaborator_logo_marquee.html
+│   ├── demo
+│   │   └── omics_sequence.html
+│   ├── footer.html
+│   ├── google-analytics.html
+│   ├── hamburger.html
+│   ├── header.html
+│   ├── infrastructure_maturity.bak
+│   ├── infrastructure_maturity.html
+│   ├── lazy_video.html
+│   ├── main-menu-mobile.html
+│   ├── main-menu.html
+│   ├── mathjax.html
+│   ├── newsletter_signup.html
+│   ├── orb_spawn_animation.html
+│   ├── quant_card.html
+│   ├── quant_card_v0.html
+│   ├── qv_acmg_svnindel_criteria_20250225.yaml
+│   ├── social.html
+│   └── sub-footer.html
+├── _layouts
+│   ├── contact.html
+│   ├── default.bak
+│   ├── default.html
+│   ├── default_no_brand.html
+│   ├── default_panelapprex.html
+│   ├── demo.html
+│   ├── home.html
+│   ├── learn-index.html
+│   ├── learn.html
+│   ├── mathjax.html
+│   ├── page.html
+│   ├── page_editorial.html
+│   ├── page_no_brand.html
+│   ├── page_wide.html
+│   ├── team.html
+│   ├── teams.html
+│   ├── tech.html
+│   └── technologies.html
+├── _sass
+│   ├── _bootstrap-variables.scss
+│   ├── bootstrap
+│   │   ├── _accordion.scss
+│   │   ├── _alert.scss
+│   │   ├── _badge.scss
+│   │   ├── _breadcrumb.scss
+│   │   ├── _button-group.scss
+│   │   ├── _buttons.scss
+│   │   ├── _card.scss
+│   │   ├── _carousel.scss
+│   │   ├── _close.scss
+│   │   ├── _containers.scss
+│   │   ├── _dropdown.scss
+│   │   ├── _forms.scss
+│   │   ├── _functions.scss
+│   │   ├── _grid.scss
+│   │   ├── _helpers.scss
+│   │   ├── _images.scss
+│   │   ├── _list-group.scss
+│   │   ├── _maps.scss
+│   │   ├── _mixins.scss
+│   │   ├── _modal.scss
+│   │   ├── _nav.scss
+│   │   ├── _navbar.scss
+│   │   ├── _offcanvas.scss
+│   │   ├── _pagination.scss
+│   │   ├── _placeholders.scss
+│   │   ├── _popover.scss
+│   │   ├── _progress.scss
+│   │   ├── _reboot.scss
+│   │   ├── _root.scss
+│   │   ├── _spinners.scss
+│   │   ├── _tables.scss
+│   │   ├── _toasts.scss
+│   │   ├── _tooltip.scss
+│   │   ├── _transitions.scss
+│   │   ├── _type.scss
+│   │   ├── _utilities.scss
+│   │   ├── _variables-dark.scss
+│   │   ├── _variables.scss
+│   │   ├── bootstrap-grid.scss
+│   │   ├── bootstrap-reboot.scss
+│   │   ├── bootstrap-utilities.scss
+│   │   ├── bootstrap.scss
+│   │   ├── forms
+│   │   │   ├── _floating-labels.scss
+│   │   │   ├── _form-check.scss
+│   │   │   ├── _form-control.scss
+│   │   │   ├── _form-range.scss
+│   │   │   ├── _form-select.scss
+│   │   │   ├── _form-text.scss
+│   │   │   ├── _input-group.scss
+│   │   │   ├── _labels.scss
+│   │   │   └── _validation.scss
+│   │   ├── helpers
+│   │   │   ├── _clearfix.scss
+│   │   │   ├── _color-bg.scss
+│   │   │   ├── _colored-links.scss
+│   │   │   ├── _focus-ring.scss
+│   │   │   ├── _icon-link.scss
+│   │   │   ├── _position.scss
+│   │   │   ├── _ratio.scss
+│   │   │   ├── _stacks.scss
+│   │   │   ├── _stretched-link.scss
+│   │   │   ├── _text-truncation.scss
+│   │   │   ├── _visually-hidden.scss
+│   │   │   └── _vr.scss
+│   │   ├── mixins
+│   │   │   ├── _alert.scss
+│   │   │   ├── _backdrop.scss
+│   │   │   ├── _banner.scss
+│   │   │   ├── _border-radius.scss
+│   │   │   ├── _box-shadow.scss
+│   │   │   ├── _breakpoints.scss
+│   │   │   ├── _buttons.scss
+│   │   │   ├── _caret.scss
+│   │   │   ├── _clearfix.scss
+│   │   │   ├── _color-mode.scss
+│   │   │   ├── _color-scheme.scss
+│   │   │   ├── _container.scss
+│   │   │   ├── _deprecate.scss
+│   │   │   ├── _forms.scss
+│   │   │   ├── _gradients.scss
+│   │   │   ├── _grid.scss
+│   │   │   ├── _image.scss
+│   │   │   ├── _list-group.scss
+│   │   │   ├── _lists.scss
+│   │   │   ├── _pagination.scss
+│   │   │   ├── _reset-text.scss
+│   │   │   ├── _resize.scss
+│   │   │   ├── _table-variants.scss
+│   │   │   ├── _text-truncate.scss
+│   │   │   ├── _transition.scss
+│   │   │   ├── _utilities.scss
+│   │   │   └── _visually-hidden.scss
+│   │   ├── tests
+│   │   │   ├── jasmine.js
+│   │   │   ├── mixins
+│   │   │   │   ├── _color-modes.test.scss
+│   │   │   │   ├── _media-query-color-mode-full.test.scss
+│   │   │   │   └── _utilities.test.scss
+│   │   │   ├── sass-true
+│   │   │   │   ├── register.js
+│   │   │   │   └── runner.js
+│   │   │   └── utilities
+│   │   │       └── _api.test.scss
+│   │   ├── utilities
+│   │   │   └── _api.scss
+│   │   └── vendor
+│   │       └── _rfs.scss
+│   ├── components
+│   │   ├── _buttons.scss
+│   │   ├── _call.scss
+│   │   ├── _content.scss
+│   │   ├── _feature.scss
+│   │   ├── _fonts.scss
+│   │   ├── _footer.scss
+│   │   ├── _hamburger.scss
+│   │   ├── _header.scss
+│   │   ├── _intro-image.scss
+│   │   ├── _intro.scss
+│   │   ├── _logo.scss
+│   │   ├── _main-menu-mobile.scss
+│   │   ├── _main-menu.scss
+│   │   ├── _page.scss
+│   │   ├── _social.scss
+│   │   ├── _strip.scss
+│   │   ├── _sub-footer.scss
+│   │   ├── _title.scss
+│   │   └── _type.scss
+│   ├── custom
+│   ├── libraries
+│   │   └── hamburgers
+│   │       ├── _base.scss
+│   │       ├── hamburgers.scss
+│   │       └── types
+│   │           ├── _3dx-r.scss
+│   │           ├── _3dx.scss
+│   │           ├── _3dxy-r.scss
+│   │           ├── _3dxy.scss
+│   │           ├── _3dy-r.scss
+│   │           ├── _3dy.scss
+│   │           ├── _arrow-r.scss
+│   │           ├── _arrow.scss
+│   │           ├── _arrowalt-r.scss
+│   │           ├── _arrowalt.scss
+│   │           ├── _arrowturn-r.scss
+│   │           ├── _arrowturn.scss
+│   │           ├── _boring.scss
+│   │           ├── _collapse-r.scss
+│   │           ├── _collapse.scss
+│   │           ├── _elastic-r.scss
+│   │           ├── _elastic.scss
+│   │           ├── _emphatic-r.scss
+│   │           ├── _emphatic.scss
+│   │           ├── _minus.scss
+│   │           ├── _slider-r.scss
+│   │           ├── _slider.scss
+│   │           ├── _spin-r.scss
+│   │           ├── _spin.scss
+│   │           ├── _spring-r.scss
+│   │           ├── _spring.scss
+│   │           ├── _squeeze.scss
+│   │           ├── _stand-r.scss
+│   │           ├── _stand.scss
+│   │           ├── _vortex-r.scss
+│   │           └── _vortex.scss
+│   └── pages
+│       ├── _page-home.bak
+│       ├── _page-home.scss
+│       ├── _page-teams.scss
+│       └── _page-tech.scss
+├── _site
+│   ├── 404
+│   │   └── index.html
+│   ├── CNAME
+│   ├── about
+│   │   └── index.html
+│   ├── assets
+│   │   ├── css
+│   │   │   ├── animations.css
+│   │   │   ├── custom.css
+│   │   │   ├── demo
+│   │   │   │   ├── demo-omics.css
+│   │   │   │   └── omics-sequence.css
+│   │   │   ├── style.css
+│   │   │   └── style.css.map
+│   │   ├── fonts
+│   │   │   ├── Satoshi_Complete
+│   │   │   │   ├── EULA
+│   │   │   │   │   └── Fontshare\ EULA.txt
+│   │   │   │   └── Fonts
+│   │   │   │       ├── OTF
+│   │   │   │       │   ├── Satoshi-Black.otf
+│   │   │   │       │   ├── Satoshi-BlackItalic.otf
+│   │   │   │       │   ├── Satoshi-Bold.otf
+│   │   │   │       │   ├── Satoshi-BoldItalic.otf
+│   │   │   │       │   ├── Satoshi-Italic.otf
+│   │   │   │       │   ├── Satoshi-Light.otf
+│   │   │   │       │   ├── Satoshi-LightItalic.otf
+│   │   │   │       │   ├── Satoshi-Medium.otf
+│   │   │   │       │   ├── Satoshi-MediumItalic.otf
+│   │   │   │       │   └── Satoshi-Regular.otf
+│   │   │   │       ├── Variable
+│   │   │   │       │   ├── Satoshi-Variable.ttf
+│   │   │   │       │   └── Satoshi-VariableItalic.ttf
+│   │   │   │       └── WEB
+│   │   │   │           ├── README.md
+│   │   │   │           ├── css
+│   │   │   │           │   └── satoshi.css
+│   │   │   │           └── fonts
+│   │   │   │               ├── Satoshi-Black.eot
+│   │   │   │               ├── Satoshi-Black.ttf
+│   │   │   │               ├── Satoshi-Black.woff
+│   │   │   │               ├── Satoshi-Black.woff2
+│   │   │   │               ├── Satoshi-BlackItalic.eot
+│   │   │   │               ├── Satoshi-BlackItalic.ttf
+│   │   │   │               ├── Satoshi-BlackItalic.woff
+│   │   │   │               ├── Satoshi-BlackItalic.woff2
+│   │   │   │               ├── Satoshi-Bold.eot
+│   │   │   │               ├── Satoshi-Bold.ttf
+│   │   │   │               ├── Satoshi-Bold.woff
+│   │   │   │               ├── Satoshi-Bold.woff2
+│   │   │   │               ├── Satoshi-BoldItalic.eot
+│   │   │   │               ├── Satoshi-BoldItalic.ttf
+│   │   │   │               ├── Satoshi-BoldItalic.woff
+│   │   │   │               ├── Satoshi-BoldItalic.woff2
+│   │   │   │               ├── Satoshi-Italic.eot
+│   │   │   │               ├── Satoshi-Italic.ttf
+│   │   │   │               ├── Satoshi-Italic.woff
+│   │   │   │               ├── Satoshi-Italic.woff2
+│   │   │   │               ├── Satoshi-Light.eot
+│   │   │   │               ├── Satoshi-Light.ttf
+│   │   │   │               ├── Satoshi-Light.woff
+│   │   │   │               ├── Satoshi-Light.woff2
+│   │   │   │               ├── Satoshi-LightItalic.eot
+│   │   │   │               ├── Satoshi-LightItalic.ttf
+│   │   │   │               ├── Satoshi-LightItalic.woff
+│   │   │   │               ├── Satoshi-LightItalic.woff2
+│   │   │   │               ├── Satoshi-Medium.eot
+│   │   │   │               ├── Satoshi-Medium.ttf
+│   │   │   │               ├── Satoshi-Medium.woff
+│   │   │   │               ├── Satoshi-Medium.woff2
+│   │   │   │               ├── Satoshi-MediumItalic.eot
+│   │   │   │               ├── Satoshi-MediumItalic.ttf
+│   │   │   │               ├── Satoshi-MediumItalic.woff
+│   │   │   │               ├── Satoshi-MediumItalic.woff2
+│   │   │   │               ├── Satoshi-Regular.eot
+│   │   │   │               ├── Satoshi-Regular.ttf
+│   │   │   │               ├── Satoshi-Regular.woff
+│   │   │   │               ├── Satoshi-Regular.woff2
+│   │   │   │               ├── Satoshi-Variable.eot
+│   │   │   │               ├── Satoshi-Variable.ttf
+│   │   │   │               ├── Satoshi-Variable.woff
+│   │   │   │               ├── Satoshi-Variable.woff2
+│   │   │   │               ├── Satoshi-VariableItalic.eot
+│   │   │   │               ├── Satoshi-VariableItalic.ttf
+│   │   │   │               ├── Satoshi-VariableItalic.woff
+│   │   │   │               └── Satoshi-VariableItalic.woff2
+│   │   │   └── playfair-display.woff2
+│   │   ├── js
+│   │   │   ├── demo
+│   │   │   │   ├── demo-omics.js
+│   │   │   │   └── omics-sequence.js
+│   │   │   ├── lazy-video.js
+│   │   │   ├── mathjax-script-type.js
+│   │   │   └── scripts.js
+│   │   ├── pdf
+│   │   │   └── 20250918_lawless_quant.pdf
+│   │   ├── quant
+│   │   │   └── quant_card_demo.html
+│   │   ├── qv_database
+│   │   │   ├── generate_qv_database.sh
+│   │   │   ├── qv_acmg_sf_v3_3_20250828.yaml
+│   │   │   ├── qv_acmg_sf_v3_3_20250828_json.yaml
+│   │   │   ├── qv_acmg_sf_v3_3_prompt.txt
+│   │   │   ├── qv_acmg_svnindel_criteria_20250225.yaml
+│   │   │   ├── qv_variant_interpretation.yaml
+│   │   │   └── qv_variant_interpretation_prompt.txt
+│   │   ├── qv_submission
+│   │   │   └── index.html
+│   │   ├── submission_mailing_list
+│   │   │   └── index.html
+│   │   └── vendor
+│   │       └── zdog
+│   │           └── zdog.dist.min.js
+│   ├── blog
+│   │   └── founder_stories_wiriting_guide.md
+│   ├── builtatlightspeed.json
+│   ├── contact
+│   │   └── index.html
+│   ├── demo
+│   │   └── index.html
+│   ├── images
+│   │   ├── 2025_E_L_Laurent_etherial_precision
+│   │   │   └── 1EBA3CDE-7455-49FD-8686-017F290965E3_wide.jpeg
+│   │   ├── ORCID-iD_icon_vector.svg
+│   │   ├── android-chrome-192x192.png
+│   │   ├── android-chrome-512x512.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── bsmg_recommendation_screenshot.png
+│   │   ├── collaborator_logos
+│   │   │   ├── PHRT_Logo_transparent.png
+│   │   │   ├── SIB-Logo-2023.svg
+│   │   │   ├── SPHN-Logo-SIB.png
+│   │   │   ├── SwissPedHealthLogo_trim.png
+│   │   │   ├── Universita�\210t_Zu�\210rich_logo.png
+│   │   │   ├── Vanderbilt-University-Logo.jpg
+│   │   │   ├── genomics-england-logo.png
+│   │   │   ├── health2030_logo.png
+│   │   │   ├── logo-epfl.png
+│   │   │   ├── logo_kinderspital.svg
+│   │   │   ├── roche_logo.png
+│   │   │   ├── swissgenomicsassociation_logo.png
+│   │   │   ├── switzerlandomics_logo_screenshot.png
+│   │   │   ├── tcd_logo.jpg
+│   │   │   ├── ucd_logo.jpg
+│   │   │   ├── university-of-leeds-logo.png
+│   │   │   ├── uof_logo.jpg
+│   │   │   └── venturelab_logo.jpg
+│   │   ├── demo
+│   │   │   └── logo.png
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   ├── logo
+│   │   │   ├── lawlessdesign_logo.png
+│   │   │   ├── lawlessdesign_logo.svg
+│   │   │   ├── lion.png
+│   │   │   ├── lion_logo.json
+│   │   │   ├── lion_logo.png
+│   │   │   ├── lion_logo_rakkan_in.json
+│   │   │   ├── lion_logo_rakkanin.png
+│   │   │   ├── lion_logo_rakkanin_trim.png
+│   │   │   ├── logo4.2_150ppi.png
+│   │   │   ├── logo4.2_300.png
+│   │   │   ├── logo4.2_300_grey.png
+│   │   │   └── logo4.2_300_white.png
+│   │   ├── portfolio
+│   │   │   ├── landingpage_genomic_vault.png
+│   │   │   ├── landingpage_swiss_genomics_association.png
+│   │   │   ├── landingpage_swisspedhealth.png
+│   │   │   ├── landingpage_switzerland_omics.png
+│   │   │   └── landingpage_variant_impact.png
+│   │   ├── profile
+│   │   │   ├── dylan_small.jpg
+│   │   │   ├── product_dev.png
+│   │   │   ├── product_dev_original.png
+│   │   │   └── product_dev_v2.png
+│   │   ├── site.webmanifest
+│   │   ├── social
+│   │   │   ├── discord.svg
+│   │   │   ├── email.svg
+│   │   │   ├── facebook.svg
+│   │   │   ├── github.svg
+│   │   │   ├── instagram.svg
+│   │   │   └── twitter.svg
+│   │   └── team
+│   │       ├── DSCF3023_small_1mb.jpg
+│   │       └── profile_dylan_2026.jpg
+│   ├── index.html
+│   ├── jek.sh
+│   ├── kill_serve.sh
+│   ├── legal
+│   │   └── index.html
+│   ├── portfolio
+│   │   └── index.html
+│   ├── profile
+│   │   └── index.html
+│   ├── profiles
+│   │   ├── deep-tech-product-strategy
+│   │   │   └── index.html
+│   │   └── videos
+│   │       └── index.html
+│   ├── publications
+│   │   └── index.html
+│   ├── reference_inso
+│   ├── releases
+│   │   └── index.html
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   ├── team
+│   │   ├── advisor-brand-communication
+│   │   │   └── index.html
+│   │   ├── advisor-scientific
+│   │   │   └── index.html
+│   │   ├── advisor-security-regulatory
+│   │   │   └── index.html
+│   │   ├── bill-mcdonald.md
+│   │   ├── dylan-lawless
+│   │   │   └── index.html
+│   │   └── index.html
+│   ├── technologies
+│   │   └── index.html
+│   ├── technologies_gallery
+│   │   └── index.html
+│   ├── technologies_readme.txt
+│   ├── temp
+│   ├── video_player_example.md
+│   └── videos
+│       ├── 20250512_qualifying_variants_v1.MP4
+│       ├── 20250627_quant_scan_v1_compressed.mov
+│       ├── 20260207_Archipelago_promo.mp4
+│       ├── 20260227_panelapprex_promo_2_crop.mov
+│       ├── Archipelago_thumbnail.png
+│       ├── panelapprex_thumbnail.png
+│       ├── quant_icons_thumbnail.jpg
+│       └── qv_thumbnail.jpg
+├── _team
+│   ├── advisor-brand-communication.md
+│   ├── advisor-scientific.md
+│   ├── advisor-security-regulatory.md
+│   ├── bill-mcdonald.md
+│   └── dylan-lawless.md
+├── about.md
+├── assets
+│   ├── css
+│   │   ├── _page-infra-maturity.scss
+│   │   ├── animations.css
+│   │   ├── custom.css
+│   │   ├── demo
+│   │   │   ├── demo-omics.css
+│   │   │   └── omics-sequence.css
+│   │   └── style.scss
+│   ├── fonts
+│   │   ├── Satoshi_Complete
+│   │   │   ├── EULA
+│   │   │   │   └── Fontshare\ EULA.txt
+│   │   │   └── Fonts
+│   │   │       ├── OTF
+│   │   │       │   ├── Satoshi-Black.otf
+│   │   │       │   ├── Satoshi-BlackItalic.otf
+│   │   │       │   ├── Satoshi-Bold.otf
+│   │   │       │   ├── Satoshi-BoldItalic.otf
+│   │   │       │   ├── Satoshi-Italic.otf
+│   │   │       │   ├── Satoshi-Light.otf
+│   │   │       │   ├── Satoshi-LightItalic.otf
+│   │   │       │   ├── Satoshi-Medium.otf
+│   │   │       │   ├── Satoshi-MediumItalic.otf
+│   │   │       │   └── Satoshi-Regular.otf
+│   │   │       ├── Variable
+│   │   │       │   ├── Satoshi-Variable.ttf
+│   │   │       │   └── Satoshi-VariableItalic.ttf
+│   │   │       └── WEB
+│   │   │           ├── README.md
+│   │   │           ├── css
+│   │   │           │   └── satoshi.css
+│   │   │           └── fonts
+│   │   │               ├── Satoshi-Black.eot
+│   │   │               ├── Satoshi-Black.ttf
+│   │   │               ├── Satoshi-Black.woff
+│   │   │               ├── Satoshi-Black.woff2
+│   │   │               ├── Satoshi-BlackItalic.eot
+│   │   │               ├── Satoshi-BlackItalic.ttf
+│   │   │               ├── Satoshi-BlackItalic.woff
+│   │   │               ├── Satoshi-BlackItalic.woff2
+│   │   │               ├── Satoshi-Bold.eot
+│   │   │               ├── Satoshi-Bold.ttf
+│   │   │               ├── Satoshi-Bold.woff
+│   │   │               ├── Satoshi-Bold.woff2
+│   │   │               ├── Satoshi-BoldItalic.eot
+│   │   │               ├── Satoshi-BoldItalic.ttf
+│   │   │               ├── Satoshi-BoldItalic.woff
+│   │   │               ├── Satoshi-BoldItalic.woff2
+│   │   │               ├── Satoshi-Italic.eot
+│   │   │               ├── Satoshi-Italic.ttf
+│   │   │               ├── Satoshi-Italic.woff
+│   │   │               ├── Satoshi-Italic.woff2
+│   │   │               ├── Satoshi-Light.eot
+│   │   │               ├── Satoshi-Light.ttf
+│   │   │               ├── Satoshi-Light.woff
+│   │   │               ├── Satoshi-Light.woff2
+│   │   │               ├── Satoshi-LightItalic.eot
+│   │   │               ├── Satoshi-LightItalic.ttf
+│   │   │               ├── Satoshi-LightItalic.woff
+│   │   │               ├── Satoshi-LightItalic.woff2
+│   │   │               ├── Satoshi-Medium.eot
+│   │   │               ├── Satoshi-Medium.ttf
+│   │   │               ├── Satoshi-Medium.woff
+│   │   │               ├── Satoshi-Medium.woff2
+│   │   │               ├── Satoshi-MediumItalic.eot
+│   │   │               ├── Satoshi-MediumItalic.ttf
+│   │   │               ├── Satoshi-MediumItalic.woff
+│   │   │               ├── Satoshi-MediumItalic.woff2
+│   │   │               ├── Satoshi-Regular.eot
+│   │   │               ├── Satoshi-Regular.ttf
+│   │   │               ├── Satoshi-Regular.woff
+│   │   │               ├── Satoshi-Regular.woff2
+│   │   │               ├── Satoshi-Variable.eot
+│   │   │               ├── Satoshi-Variable.ttf
+│   │   │               ├── Satoshi-Variable.woff
+│   │   │               ├── Satoshi-Variable.woff2
+│   │   │               ├── Satoshi-VariableItalic.eot
+│   │   │               ├── Satoshi-VariableItalic.ttf
+│   │   │               ├── Satoshi-VariableItalic.woff
+│   │   │               └── Satoshi-VariableItalic.woff2
+│   │   └── playfair-display.woff2
+│   ├── js
+│   │   ├── demo
+│   │   │   ├── demo-omics.js
+│   │   │   └── omics-sequence.js
+│   │   ├── lazy-video.js
+│   │   ├── mathjax-script-type.js
+│   │   └── scripts.js
+│   ├── pdf
+│   │   └── 20250918_lawless_quant.pdf
+│   ├── quant
+│   │   └── quant_card_demo.html
+│   ├── qv_database
+│   │   ├── generate_qv_database.sh
+│   │   ├── qv_acmg_sf_v3_3_20250828.yaml
+│   │   ├── qv_acmg_sf_v3_3_20250828_json.yaml
+│   │   ├── qv_acmg_sf_v3_3_prompt.txt
+│   │   ├── qv_acmg_svnindel_criteria_20250225.yaml
+│   │   ├── qv_variant_interpretation.yaml
+│   │   └── qv_variant_interpretation_prompt.txt
+│   ├── qv_submission.md
+│   ├── submission_mailing_list.md
+│   └── vendor
+│       └── zdog
+│           └── zdog.dist.min.js
+├── builtatlightspeed.json
+├── contact.md
+├── demo.md
+├── images
+│   ├── 2025_E_L_Laurent_etherial_precision
+│   │   └── 1EBA3CDE-7455-49FD-8686-017F290965E3_wide.jpeg
+│   ├── ORCID-iD_icon_vector.svg
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── bsmg_recommendation_screenshot.png
+│   ├── collaborator_logos
+│   │   ├── PHRT_Logo_transparent.png
+│   │   ├── SIB-Logo-2023.svg
+│   │   ├── SPHN-Logo-SIB.png
+│   │   ├── SwissPedHealthLogo_trim.png
+│   │   ├── Universita�\210t_Zu�\210rich_logo.png
+│   │   ├── Vanderbilt-University-Logo.jpg
+│   │   ├── genomics-england-logo.png
+│   │   ├── health2030_logo.png
+│   │   ├── logo-epfl.png
+│   │   ├── logo_kinderspital.svg
+│   │   ├── roche_logo.png
+│   │   ├── swissgenomicsassociation_logo.png
+│   │   ├── switzerlandomics_logo_screenshot.png
+│   │   ├── tcd_logo.jpg
+│   │   ├── ucd_logo.jpg
+│   │   ├── university-of-leeds-logo.png
+│   │   ├── uof_logo.jpg
+│   │   └── venturelab_logo.jpg
+│   ├── demo
+│   │   └── logo.png
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── logo
+│   │   ├── lawlessdesign_logo.png
+│   │   ├── lawlessdesign_logo.svg
+│   │   ├── lion.png
+│   │   ├── lion_logo.json
+│   │   ├── lion_logo.png
+│   │   ├── lion_logo_rakkan_in.json
+│   │   ├── lion_logo_rakkanin.png
+│   │   ├── lion_logo_rakkanin_trim.png
+│   │   ├── logo4.2_150ppi.png
+│   │   ├── logo4.2_300.png
+│   │   ├── logo4.2_300_grey.png
+│   │   └── logo4.2_300_white.png
+│   ├── portfolio
+│   │   ├── landingpage_genomic_vault.png
+│   │   ├── landingpage_swiss_genomics_association.png
+│   │   ├── landingpage_swisspedhealth.png
+│   │   ├── landingpage_switzerland_omics.png
+│   │   └── landingpage_variant_impact.png
+│   ├── profile
+│   │   ├── dylan_small.jpg
+│   │   ├── product_dev.png
+│   │   ├── product_dev_original.png
+│   │   └── product_dev_v2.png
+│   ├── site.webmanifest
+│   ├── social
+│   │   ├── discord.svg
+│   │   ├── email.svg
+│   │   ├── facebook.svg
+│   │   ├── github.svg
+│   │   ├── instagram.svg
+│   │   └── twitter.svg
+│   └── team
+│       ├── DSCF3023_small_1mb.jpg
+│       └── profile_dylan_2026.jpg
+├── index.md
+├── jek.sh
+├── kill_serve.sh
+├── legal.md
+├── portfolio.md
+├── profile.md
+├── profiles
+│   ├── deep_tech_product_strategy.md
+│   └── videos.md
+├── publications.md
+├── reference_inso
+├── releases.md
+├── team.md
+├── technologies.md
+├── technologies_gallery.md
+├── technologies_readme.txt
+├── temp
+├── video_player_example.md
+└── videos
+    ├── 20250512_qualifying_variants_v1.MP4
+    ├── 20250627_quant_scan_v1_compressed.mov
+    ├── 20260207_Archipelago_promo.mp4
+    ├── 20260227_panelapprex_promo_2_crop.mov
+    ├── Archipelago_thumbnail.png
+    ├── panelapprex_thumbnail.png
+    ├── quant_icons_thumbnail.jpg
+    └── qv_thumbnail.jpg
 
-7 directories, 63 files
+105 directories, 572 files
