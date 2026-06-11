@@ -7,7 +7,7 @@ description: Contact
 
 For professional enquiries, recruitment, scientific collaboration, advisory work, please contact me by email.
 
-[dylan@lawless.ch](mailto:dylan@lawless.ch){: .button-link }
+[dylan.lawless@lawless.ch](mailto:dylan.lawless@lawless.ch){: .button-link }
 
 **Location**  
 Zürich, Switzerland

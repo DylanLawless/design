@@ -20,7 +20,7 @@ The work usually begins with a technical product, scientific resource, instituti
 Our role is to make that value clear, credible, and usable.
 
 <div class="profile-actions">
-  <a href="mailto:dylan@lawless.ch" class="button-link">
+  <a href="mailto:dylan.lawless@lawless.ch" class="button-link">
     Contact
   </a>
 </div>
@@ -138,6 +138,28 @@ Our role is to make that value clear, credible, and usable.
     </div>
   </article>
 
+  <article class="portfolio-work-card">
+    <a class="portfolio-shot" href="https://quantbayes.com" target="_blank" rel="noreferrer">
+      <img
+        src="{{ '/images/portfolio/landingpage_quantbayes_studio.png' | relative_url }}"
+        alt="QuantBayes Studio landing page"
+        loading="lazy"
+      >
+    </a>
+
+    <div class="portfolio-card-body">
+      <div class="portfolio-meta">Evidence verification platform</div>
+      <h3>QuantBayes Studio</h3>
+      <p>
+      A product identity and platform experience for evidence-based verification across AI outputs, scientific claims, clinical findings, engineering checks, and regulated review workflows.
+      </p>
+      <p class="portfolio-proof">
+      Product positioning, evidence workflow design, technical communication, proof-based messaging, API-facing structure, documentation logic, and trust-sensitive product language.
+      </p>
+    </div>
+  </article>
+
+
 </div>
 
 </section>
@@ -187,8 +209,8 @@ Our role is to make that value clear, credible, and usable.
 If you are building a serious product, institution, or technical brand that needs to be understood, get in touch.
 
 <div class="profile-actions">
-  <a href="mailto:dylan@lawless.ch" class="button-link">
-    dylan@lawless.ch
+  <a href="mailto:dylan.lawless@lawless.ch" class="button-link">
+    dylan.lawless@lawless.ch
   </a>
 </div>
 
