@@ -1,10 +1,5 @@
 [
   {
-    "name": "Github",
-    "link": "https://github.com/DylanLawless/Lawless.github.io",
-    "image": "images/social/github.svg"
-  },
-  {
       "name": "Email",
       "link": "mailto:dylan.lawless@lawless.ch ",
       "image": "images/social/email.svg"
