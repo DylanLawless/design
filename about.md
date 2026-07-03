@@ -156,9 +156,9 @@ No theatre. No filler. Just the clearest version of the company.
 
 For new projects, collaborations, and selected advisory work:
 
-[dylan.lawless@lawless.ch](mailto:dylan.lawless@lawless.ch){: .button-link }
+[design@lawless.ch](mailto:design@lawless.ch){: .button-link }
 
-{% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="45s" %}
+<!-- {% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="45s" %} -->
 
 </div>
 </div>
