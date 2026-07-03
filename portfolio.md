@@ -20,7 +20,7 @@ The work usually begins with a technical product, scientific resource, instituti
 Our role is to make that value clear, credible, and usable.
 
 <div class="profile-actions">
-  <a href="mailto:dylan.lawless@lawless.ch" class="button-link">
+  <a href="mailto:design@lawless.ch" class="button-link">
     Contact
   </a>
 </div>
@@ -96,6 +96,7 @@ Our role is to make that value clear, credible, and usable.
     </div>
   </article>
 
+<!--
   <article class="portfolio-work-card">
     <a class="portfolio-shot" href="https://swisspedhealth.com" target="_blank" rel="noreferrer">
       <img
@@ -116,6 +117,7 @@ Our role is to make that value clear, credible, and usable.
       </p>
     </div>
   </article>
+-->
 
   <article class="portfolio-work-card">
     <a class="portfolio-shot" href="https://variantimpact.vercel.app" target="_blank" rel="noreferrer">
@@ -209,8 +211,8 @@ Our role is to make that value clear, credible, and usable.
 If you are building a serious product, institution, or technical brand that needs to be understood, get in touch.
 
 <div class="profile-actions">
-  <a href="mailto:dylan.lawless@lawless.ch" class="button-link">
-    dylan.lawless@lawless.ch
+  <a href="mailto:design@lawless.ch" class="button-link">
+    design@lawless.ch
   </a>
 </div>
 
@@ -218,4 +220,4 @@ If you are building a serious product, institution, or technical brand that need
 
 </div>
 
-{% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="45s" %}
+<!-- {% include collaborator_logo_marquee.html colour=true gap="1rem" slot="100px" speed="45s" %} -->

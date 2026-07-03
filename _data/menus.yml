@@ -31,6 +31,9 @@ footer:
   - name: "Legal"
     url: "/legal/"
     weight: 3
+  - name: "Terms"
+    url: "/terms/"
+    weight: 3
   # - name: "Docs"
   #   url: "https://docs.switzerlandomics.ch"
   #   weight: 4

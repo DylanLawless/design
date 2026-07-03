@@ -29,6 +29,12 @@ collections:
   learn:
     output: true
     permalink: /learn/:name/
+  legal:
+    output: true
+    permalink: /legal/:name/
+  terms:
+    output: true
+    permalink: /terms/:name/
 
 
 defaults:
