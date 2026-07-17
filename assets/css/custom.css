@@ -1128,11 +1128,6 @@
   max-width: 100%;
 }
 
-.portfolio-shot:hover img,
-.portfolio-shot:focus-visible img {
-  filter: saturate(1.02) contrast(1.01);
-}
-
 .portfolio-shot:focus-visible {
   outline: 3px solid rgba(229, 38, 31, 0.28);
   outline-offset: 4px;

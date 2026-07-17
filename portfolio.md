@@ -161,6 +161,69 @@ Our role is to make that value clear, credible, and usable.
     </div>
   </article>
 
+  <article class="portfolio-work-card">
+    <a class="portfolio-shot" href="https://switzerlandomics.ch/technologies/pedigree/" target="_blank" rel="noreferrer">
+      <img
+        src="{{ '/images/portfolio/landingpage_pedigree.png' | relative_url }}"
+        alt="Pedigree builder landing page"
+        loading="lazy"
+      >
+    </a>
+
+    <div class="portfolio-card-body">
+      <div class="portfolio-meta">Clinical workflow interface</div>
+      <h3>Pedigree builder</h3>
+      <p>
+      A standards-based product interface that turns family history into a clinical pedigree, report, and exchangeable record.
+      </p>
+      <p class="portfolio-proof">
+      UX logic, notation reference, graph-based interaction model, clinical warnings, export structure, product writing, and standards-led documentation.
+      </p>
+    </div>
+  </article>
+
+  <article class="portfolio-work-card">
+    <a class="portfolio-shot" href="https://switzerlandomics.ch/technologies/acmg-validator/" target="_blank" rel="noreferrer">
+      <img
+        src="{{ '/images/portfolio/landingpage_acmg_validator.png' | relative_url }}"
+        alt="ACMG Validator interface"
+        loading="lazy"
+      >
+    </a>
+
+    <div class="portfolio-card-body">
+      <div class="portfolio-meta">Clinical genomics review interface</div>
+      <h3>ACMG Validator</h3>
+      <p>
+      A browser-based review interface that turns ACMG/AMP variant classification into a structured evidence record.
+      </p>
+      <p class="portfolio-proof">
+      Product positioning, evidence workflow design, criteria state logic, validation language, report structure, privacy framing, and standards-aware product documentation. Evidence API, ClinVar, Ensembl. 
+      </p>
+    </div>
+  </article>
+
+  <article class="portfolio-work-card">
+    <a class="portfolio-shot" href="https://switzerlandomics.ch/technologies/panelAppRexAi" target="_blank" rel="noreferrer">
+      <img
+        src="{{ '/images/portfolio/landingpage_panelapprex.png' | relative_url }}"
+        alt="PanelAppRex AI landing page"
+        loading="lazy"
+      >
+    </a>
+
+    <div class="portfolio-card-body">
+      <div class="portfolio-meta">Genomic knowledge interface</div>
+      <h3>PanelAppRex AI</h3>
+      <p>
+      An interface enhanced by agentic AI that turns fragmented disease-gene panel resources into searchable, structured knowledge for genomic interpretation.
+      </p>
+      <p class="portfolio-proof">
+      Product positioning, search experience, dataset structure, AI summary layer, evidence-source framing, benchmark communication, export logic, and scientific product writing.
+      </p>
+    </div>
+  </article>
+
 
 </div>
 
@@ -168,7 +231,7 @@ Our role is to make that value clear, credible, and usable.
 
 <section class="profile-section" markdown="1">
 
-## What the work shows
+## What our work provides
 
 <div class="profile-grid">
 
